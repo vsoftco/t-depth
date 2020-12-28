@@ -1,0 +1,1591 @@
+Algorithm 2
+n = 2
+IN: sde = 18
+IN: max T-depth target = 19
+------------------
+PARENT LEVEL i: 1
+# of parent hyper-nodes: 1
+Parent hyper-node (T-path): 0
+	1 nodes (unitaries)
+Computing the children nodes...
+Sorted parents by size: [(0,1)]
+	Computing children of parent hyper-node: 0 [size: 1]
+Number of children nodes (USH size): 122
+Now displaying the children nodes, unfiltered (SH): 
+	(sde=19, delta_ham=0, T_path=2) | count=16
+	(sde=17, delta_ham=0, T_path=2) | count=8
+	(sde=18, delta_ham=0, T_path=2) | count=24
+	(sde=17, delta_ham=0, T_path=1) | count=4
+	(sde=20, delta_ham=0, T_path=2) | count=40
+	(sde=19, delta_ham=0, T_path=1) | count=22
+	(sde=19, delta_ham=-1, T_path=1) | count=2
+	(sde=20, delta_ham=-1, T_path=2) | count=4
+	(sde=18, delta_ham=0, T_path=1) | count=2
+Children hyper-nodes before filtering (the P set): 1 2 
+Children hyper-nodes after filtering (the P set): 1 2 
+Minimal elements (filtered): 
+	(sde=18, delta_ham=0, T_path=1) | count=2
+	(sde=20, delta_ham=-1, T_path=2) | count=4
+Filtering the children nodes in all children hyper-nodes...
+Number of children nodes after filtering (size of G): 6
+------------------
+PARENT LEVEL i: 2
+# of parent hyper-nodes: 2
+Parent hyper-node (T-path): 2
+	4 nodes (unitaries)
+Parent hyper-node (T-path): 1
+	2 nodes (unitaries)
+Computing the children nodes...
+Sorted parents by size: [(1,2) (2,4)]
+	Computing children of parent hyper-node: 1 [size: 2]
+	Computing children of parent hyper-node: 2 [size: 4]
+Number of children nodes (USH size): 732
+Now displaying the children nodes, unfiltered (SH): 
+	(sde=22, delta_ham=0, T_path=4) | count=40
+	(sde=20, delta_ham=0, T_path=4) | count=16
+	(sde=18, delta_ham=1, T_path=4) | count=16
+	(sde=20, delta_ham=1, T_path=4) | count=80
+	(sde=21, delta_ham=1, T_path=4) | count=80
+	(sde=20, delta_ham=0, T_path=3) | count=80
+	(sde=18, delta_ham=0, T_path=3) | count=40
+	(sde=19, delta_ham=1, T_path=3) | count=8
+	(sde=17, delta_ham=0, T_path=2) | count=8
+	(sde=18, delta_ham=0, T_path=2) | count=4
+	(sde=20, delta_ham=-1, T_path=3) | count=8
+	(sde=18, delta_ham=-1, T_path=3) | count=8
+	(sde=21, delta_ham=1, T_path=3) | count=48
+	(sde=19, delta_ham=-1, T_path=2) | count=4
+	(sde=21, delta_ham=0, T_path=3) | count=48
+	(sde=19, delta_ham=0, T_path=2) | count=44
+	(sde=21, delta_ham=0, T_path=4) | count=16
+	(sde=19, delta_ham=0, T_path=3) | count=40
+	(sde=17, delta_ham=0, T_path=3) | count=16
+	(sde=22, delta_ham=1, T_path=4) | count=120
+	(sde=20, delta_ham=1, T_path=3) | count=8
+Children hyper-nodes before filtering (the P set): 2 3 4 
+Children hyper-nodes after filtering (the P set): 2 3 4 
+Minimal elements (filtered): 
+	(sde=18, delta_ham=0, T_path=2) | count=4
+	(sde=18, delta_ham=-1, T_path=3) | count=8
+	(sde=18, delta_ham=1, T_path=4) | count=16
+Filtering the children nodes in all children hyper-nodes...
+Number of children nodes after filtering (size of G): 19
+------------------
+PARENT LEVEL i: 3
+# of parent hyper-nodes: 3
+Parent hyper-node (T-path): 4
+	8 nodes (unitaries)
+Parent hyper-node (T-path): 2
+	3 nodes (unitaries)
+Parent hyper-node (T-path): 3
+	8 nodes (unitaries)
+Computing the children nodes...
+Sorted parents by size: [(2,3) (4,8) (3,8)]
+	Computing children of parent hyper-node: 2 [size: 3]
+	Computing children of parent hyper-node: 4 [size: 8]
+	Computing children of parent hyper-node: 3 [size: 8]
+Number of children nodes (USH size): 2318
+Now displaying the children nodes, unfiltered (SH): 
+	(sde=20, delta_ham=0, T_path=5) | count=96
+	(sde=16, delta_ham=1, T_path=5) | count=16
+	(sde=20, delta_ham=1, T_path=5) | count=296
+	(sde=19, delta_ham=0, T_path=5) | count=184
+	(sde=19, delta_ham=0, T_path=4) | count=144
+	(sde=17, delta_ham=0, T_path=4) | count=40
+	(sde=20, delta_ham=0, T_path=4) | count=120
+	(sde=18, delta_ham=0, T_path=5) | count=32
+	(sde=20, delta_ham=-1, T_path=4) | count=12
+	(sde=19, delta_ham=0, T_path=3) | count=66
+	(sde=17, delta_ham=0, T_path=3) | count=12
+	(sde=18, delta_ham=1, T_path=5) | count=184
+	(sde=17, delta_ham=1, T_path=4) | count=16
+	(sde=18, delta_ham=0, T_path=4) | count=72
+	(sde=19, delta_ham=-1, T_path=5) | count=16
+	(sde=18, delta_ham=0, T_path=3) | count=6
+	(sde=19, delta_ham=1, T_path=4) | count=96
+	(sde=17, delta_ham=0, T_path=5) | count=32
+	(sde=20, delta_ham=0, T_path=6) | count=416
+	(sde=19, delta_ham=1, T_path=5) | count=120
+	(sde=19, delta_ham=-1, T_path=3) | count=6
+	(sde=18, delta_ham=0, T_path=6) | count=168
+	(sde=19, delta_ham=0, T_path=6) | count=104
+	(sde=20, delta_ham=-1, T_path=6) | count=32
+	(sde=17, delta_ham=0, T_path=6) | count=16
+	(sde=18, delta_ham=1, T_path=4) | count=16
+Children hyper-nodes before filtering (the P set): 3 4 5 6 
+Children hyper-nodes after filtering (the P set): 3 4 5 6 
+Minimal elements (filtered): 
+	(sde=18, delta_ham=0, T_path=3) | count=6
+	(sde=20, delta_ham=-1, T_path=4) | count=12
+	(sde=16, delta_ham=1, T_path=5) | count=16
+	(sde=17, delta_ham=0, T_path=6) | count=16
+Filtering the children nodes in all children hyper-nodes...
+Number of children nodes after filtering (size of G): 44
+------------------
+PARENT LEVEL i: 4
+# of parent hyper-nodes: 4
+Parent hyper-node (T-path): 5
+	12 nodes (unitaries)
+Parent hyper-node (T-path): 6
+	16 nodes (unitaries)
+Parent hyper-node (T-path): 4
+	12 nodes (unitaries)
+Parent hyper-node (T-path): 3
+	4 nodes (unitaries)
+Computing the children nodes...
+Sorted parents by size: [(3,4) (5,12) (4,12) (6,16)]
+	Computing children of parent hyper-node: 3 [size: 4]
+	Computing children of parent hyper-node: 5 [size: 12]
+	Computing children of parent hyper-node: 4 [size: 12]
+	Computing children of parent hyper-node: 6 [size: 16]
+Number of children nodes (USH size): 5368
+Now displaying the children nodes, unfiltered (SH): 
+	(sde=17, delta_ham=-1, T_path=8) | count=32
+	(sde=18, delta_ham=0, T_path=8) | count=192
+	(sde=17, delta_ham=0, T_path=8) | count=288
+	(sde=22, delta_ham=1, T_path=6) | count=344
+	(sde=20, delta_ham=1, T_path=6) | count=272
+	(sde=22, delta_ham=0, T_path=6) | count=136
+	(sde=21, delta_ham=0, T_path=6) | count=48
+	(sde=20, delta_ham=0, T_path=6) | count=80
+	(sde=18, delta_ham=1, T_path=6) | count=48
+	(sde=21, delta_ham=1, T_path=5) | count=144
+	(sde=17, delta_ham=0, T_path=5) | count=32
+	(sde=19, delta_ham=0, T_path=4) | count=88
+	(sde=17, delta_ham=-1, T_path=6) | count=48
+	(sde=19, delta_ham=-1, T_path=4) | count=8
+	(sde=18, delta_ham=0, T_path=5) | count=80
+	(sde=16, delta_ham=0, T_path=7) | count=232
+	(sde=20, delta_ham=0, T_path=5) | count=160
+	(sde=20, delta_ham=1, T_path=5) | count=24
+	(sde=15, delta_ham=0, T_path=6) | count=24
+	(sde=18, delta_ham=-1, T_path=5) | count=16
+	(sde=20, delta_ham=-1, T_path=5) | count=16
+	(sde=17, delta_ham=0, T_path=4) | count=16
+	(sde=19, delta_ham=1, T_path=5) | count=24
+	(sde=18, delta_ham=0, T_path=4) | count=8
+	(sde=15, delta_ham=-1, T_path=6) | count=24
+	(sde=21, delta_ham=1, T_path=6) | count=176
+	(sde=17, delta_ham=0, T_path=6) | count=240
+	(sde=16, delta_ham=-1, T_path=7) | count=120
+	(sde=19, delta_ham=0, T_path=5) | count=88
+	(sde=16, delta_ham=0, T_path=6) | count=24
+	(sde=18, delta_ham=0, T_path=7) | count=872
+	(sde=19, delta_ham=0, T_path=8) | count=912
+	(sde=18, delta_ham=-1, T_path=7) | count=148
+	(sde=19, delta_ham=-1, T_path=8) | count=48
+	(sde=17, delta_ham=0, T_path=7) | count=212
+	(sde=21, delta_ham=0, T_path=5) | count=144
+Children hyper-nodes before filtering (the P set): 4 5 6 7 8 
+Children hyper-nodes after filtering (the P set): 4 5 6 7 8 
+Minimal elements (filtered): 
+	(sde=18, delta_ham=0, T_path=4) | count=8
+	(sde=18, delta_ham=-1, T_path=5) | count=16
+	(sde=15, delta_ham=-1, T_path=6) | count=24
+	(sde=16, delta_ham=-1, T_path=7) | count=120
+	(sde=17, delta_ham=-1, T_path=8) | count=32
+Filtering the children nodes in all children hyper-nodes...
+Number of children nodes after filtering (size of G): 161
+------------------
+PARENT LEVEL i: 5
+# of parent hyper-nodes: 5
+Parent hyper-node (T-path): 8
+	32 nodes (unitaries)
+Parent hyper-node (T-path): 7
+	88 nodes (unitaries)
+Parent hyper-node (T-path): 6
+	21 nodes (unitaries)
+Parent hyper-node (T-path): 5
+	16 nodes (unitaries)
+Parent hyper-node (T-path): 4
+	4 nodes (unitaries)
+Computing the children nodes...
+Sorted parents by size: [(4,4) (5,16) (6,21) (8,32) (7,88)]
+	Computing children of parent hyper-node: 4 [size: 4]
+	Computing children of parent hyper-node: 5 [size: 16]
+	Computing children of parent hyper-node: 6 [size: 21]
+	Computing children of parent hyper-node: 8 [size: 32]
+	Computing children of parent hyper-node: 7 [size: 88]
+Number of children nodes (USH size): 19642
+Now displaying the children nodes, unfiltered (SH): 
+	(sde=14, delta_ham=-1, T_path=9) | count=72
+	(sde=17, delta_ham=0, T_path=9) | count=152
+	(sde=15, delta_ham=0, T_path=9) | count=112
+	(sde=15, delta_ham=0, T_path=7) | count=42
+	(sde=17, delta_ham=1, T_path=6) | count=32
+	(sde=17, delta_ham=0, T_path=6) | count=64
+	(sde=16, delta_ham=1, T_path=9) | count=1480
+	(sde=18, delta_ham=0, T_path=5) | count=8
+	(sde=19, delta_ham=1, T_path=6) | count=192
+	(sde=15, delta_ham=1, T_path=9) | count=112
+	(sde=13, delta_ham=-1, T_path=8) | count=60
+	(sde=15, delta_ham=-1, T_path=10) | count=32
+	(sde=19, delta_ham=0, T_path=5) | count=88
+	(sde=14, delta_ham=-1, T_path=7) | count=42
+	(sde=17, delta_ham=1, T_path=8) | count=2280
+	(sde=18, delta_ham=0, T_path=7) | count=32
+	(sde=15, delta_ham=-1, T_path=8) | count=416
+	(sde=20, delta_ham=1, T_path=7) | count=592
+	(sde=16, delta_ham=1, T_path=7) | count=326
+	(sde=20, delta_ham=0, T_path=6) | count=160
+	(sde=17, delta_ham=0, T_path=5) | count=16
+	(sde=20, delta_ham=0, T_path=7) | count=192
+	(sde=16, delta_ham=1, T_path=8) | count=488
+	(sde=19, delta_ham=-1, T_path=5) | count=8
+	(sde=18, delta_ham=0, T_path=6) | count=96
+	(sde=19, delta_ham=1, T_path=7) | count=240
+	(sde=15, delta_ham=1, T_path=8) | count=276
+	(sde=19, delta_ham=0, T_path=6) | count=256
+	(sde=14, delta_ham=0, T_path=7) | count=42
+	(sde=19, delta_ham=0, T_path=7) | count=16
+	(sde=20, delta_ham=-1, T_path=6) | count=16
+	(sde=18, delta_ham=1, T_path=9) | count=4440
+	(sde=16, delta_ham=0, T_path=9) | count=144
+	(sde=19, delta_ham=0, T_path=10) | count=352
+	(sde=16, delta_ham=-1, T_path=7) | count=42
+	(sde=15, delta_ham=0, T_path=8) | count=140
+	(sde=17, delta_ham=-1, T_path=10) | count=32
+	(sde=17, delta_ham=0, T_path=8) | count=816
+	(sde=18, delta_ham=1, T_path=6) | count=32
+	(sde=16, delta_ham=0, T_path=8) | count=96
+	(sde=18, delta_ham=0, T_path=9) | count=544
+	(sde=16, delta_ham=0, T_path=7) | count=168
+	(sde=18, delta_ham=1, T_path=7) | count=368
+	(sde=19, delta_ham=1, T_path=10) | count=896
+	(sde=16, delta_ham=-1, T_path=9) | count=680
+	(sde=17, delta_ham=1, T_path=9) | count=1320
+	(sde=17, delta_ham=1, T_path=10) | count=832
+	(sde=18, delta_ham=0, T_path=10) | count=96
+	(sde=18, delta_ham=1, T_path=10) | count=480
+	(sde=17, delta_ham=0, T_path=10) | count=160
+	(sde=15, delta_ham=0, T_path=10) | count=64
+Children hyper-nodes before filtering (the P set): 5 6 7 8 9 10 
+Children hyper-nodes after filtering (the P set): 5 6 7 8 9 10 
+Minimal elements (filtered): 
+	(sde=18, delta_ham=0, T_path=5) | count=8
+	(sde=20, delta_ham=-1, T_path=6) | count=16
+	(sde=19, delta_ham=0, T_path=7) | count=16
+	(sde=13, delta_ham=-1, T_path=8) | count=60
+	(sde=14, delta_ham=-1, T_path=9) | count=72
+	(sde=15, delta_ham=-1, T_path=10) | count=32
+Filtering the children nodes in all children hyper-nodes...
+Number of children nodes after filtering (size of G): 170
+------------------
+PARENT LEVEL i: 6
+# of parent hyper-nodes: 6
+Parent hyper-node (T-path): 9
+	54 nodes (unitaries)
+Parent hyper-node (T-path): 5
+	4 nodes (unitaries)
+Parent hyper-node (T-path): 10
+	20 nodes (unitaries)
+Parent hyper-node (T-path): 6
+	16 nodes (unitaries)
+Parent hyper-node (T-path): 7
+	16 nodes (unitaries)
+Parent hyper-node (T-path): 8
+	60 nodes (unitaries)
+Computing the children nodes...
+Sorted parents by size: [(5,4) (6,16) (7,16) (10,20) (9,54) (8,60)]
+	Computing children of parent hyper-node: 5 [size: 4]
+	Computing children of parent hyper-node: 6 [size: 16]
+	Computing children of parent hyper-node: 7 [size: 16]
+	Computing children of parent hyper-node: 10 [size: 20]
+	Computing children of parent hyper-node: 9 [size: 54]
+	Computing children of parent hyper-node: 8 [size: 60]
+Number of children nodes (USH size): 20740
+Now displaying the children nodes, unfiltered (SH): 
+	(sde=11, delta_ham=-1, T_path=10) | count=96
+	(sde=14, delta_ham=0, T_path=9) | count=600
+	(sde=13, delta_ham=1, T_path=11) | count=84
+	(sde=15, delta_ham=1, T_path=11) | count=816
+	(sde=14, delta_ham=1, T_path=11) | count=708
+	(sde=13, delta_ham=0, T_path=10) | count=492
+	(sde=20, delta_ham=1, T_path=8) | count=608
+	(sde=21, delta_ham=1, T_path=8) | count=256
+	(sde=21, delta_ham=1, T_path=7) | count=192
+	(sde=20, delta_ham=0, T_path=7) | count=160
+	(sde=18, delta_ham=0, T_path=7) | count=80
+	(sde=21, delta_ham=1, T_path=9) | count=576
+	(sde=15, delta_ham=1, T_path=12) | count=120
+	(sde=18, delta_ham=0, T_path=6) | count=8
+	(sde=15, delta_ham=0, T_path=11) | count=40
+	(sde=18, delta_ham=1, T_path=8) | count=64
+	(sde=19, delta_ham=1, T_path=7) | count=32
+	(sde=16, delta_ham=1, T_path=11) | count=3116
+	(sde=17, delta_ham=1, T_path=12) | count=1032
+	(sde=17, delta_ham=0, T_path=6) | count=16
+	(sde=18, delta_ham=-1, T_path=7) | count=16
+	(sde=20, delta_ham=0, T_path=9) | count=256
+	(sde=16, delta_ham=0, T_path=11) | count=296
+	(sde=13, delta_ham=-1, T_path=12) | count=40
+	(sde=12, delta_ham=-1, T_path=9) | count=240
+	(sde=21, delta_ham=0, T_path=7) | count=192
+	(sde=19, delta_ham=0, T_path=6) | count=88
+	(sde=19, delta_ham=-1, T_path=6) | count=8
+	(sde=20, delta_ham=-1, T_path=7) | count=16
+	(sde=19, delta_ham=0, T_path=9) | count=128
+	(sde=17, delta_ham=0, T_path=7) | count=32
+	(sde=15, delta_ham=1, T_path=10) | count=3540
+	(sde=21, delta_ham=0, T_path=8) | count=64
+	(sde=19, delta_ham=0, T_path=7) | count=96
+	(sde=22, delta_ham=1, T_path=8) | count=464
+	(sde=20, delta_ham=1, T_path=7) | count=32
+	(sde=16, delta_ham=0, T_path=12) | count=80
+	(sde=20, delta_ham=0, T_path=8) | count=224
+	(sde=20, delta_ham=1, T_path=9) | count=192
+	(sde=14, delta_ham=1, T_path=9) | count=840
+	(sde=15, delta_ham=0, T_path=10) | count=720
+	(sde=16, delta_ham=-1, T_path=11) | count=80
+	(sde=16, delta_ham=1, T_path=12) | count=248
+	(sde=19, delta_ham=0, T_path=8) | count=96
+	(sde=15, delta_ham=-1, T_path=12) | count=160
+	(sde=13, delta_ham=1, T_path=9) | count=120
+	(sde=15, delta_ham=0, T_path=12) | count=160
+	(sde=14, delta_ham=0, T_path=11) | count=248
+	(sde=15, delta_ham=-1, T_path=10) | count=108
+	(sde=22, delta_ham=0, T_path=8) | count=176
+	(sde=19, delta_ham=1, T_path=9) | count=128
+	(sde=13, delta_ham=1, T_path=10) | count=1116
+	(sde=14, delta_ham=1, T_path=10) | count=1068
+	(sde=18, delta_ham=0, T_path=9) | count=192
+	(sde=14, delta_ham=-1, T_path=11) | count=180
+Children hyper-nodes before filtering (the P set): 6 7 8 9 10 11 12 
+Children hyper-nodes after filtering (the P set): 6 7 8 9 10 11 12 
+Minimal elements (filtered): 
+	(sde=18, delta_ham=0, T_path=6) | count=8
+	(sde=18, delta_ham=-1, T_path=7) | count=16
+	(sde=18, delta_ham=1, T_path=8) | count=64
+	(sde=13, delta_ham=1, T_path=9) | count=120
+	(sde=11, delta_ham=-1, T_path=10) | count=96
+	(sde=15, delta_ham=0, T_path=11) | count=40
+	(sde=13, delta_ham=-1, T_path=12) | count=40
+Filtering the children nodes in all children hyper-nodes...
+Number of children nodes after filtering (size of G): 320
+------------------
+PARENT LEVEL i: 7
+# of parent hyper-nodes: 7
+Parent hyper-node (T-path): 10
+	72 nodes (unitaries)
+Parent hyper-node (T-path): 9
+	120 nodes (unitaries)
+Parent hyper-node (T-path): 12
+	40 nodes (unitaries)
+Parent hyper-node (T-path): 11
+	36 nodes (unitaries)
+Parent hyper-node (T-path): 8
+	32 nodes (unitaries)
+Parent hyper-node (T-path): 7
+	16 nodes (unitaries)
+Parent hyper-node (T-path): 6
+	4 nodes (unitaries)
+Computing the children nodes...
+Sorted parents by size: [(6,4) (7,16) (8,32) (11,36) (12,40) (10,72) (9,120)]
+	Computing children of parent hyper-node: 6 [size: 4]
+	Computing children of parent hyper-node: 7 [size: 16]
+	Computing children of parent hyper-node: 8 [size: 32]
+	Computing children of parent hyper-node: 11 [size: 36]
+	Computing children of parent hyper-node: 12 [size: 40]
+	Computing children of parent hyper-node: 10 [size: 72]
+	Computing children of parent hyper-node: 9 [size: 120]
+Number of children nodes (USH size): 39040
+Now displaying the children nodes, unfiltered (SH): 
+	(sde=13, delta_ham=0, T_path=11) | count=168
+	(sde=13, delta_ham=-1, T_path=11) | count=504
+	(sde=15, delta_ham=1, T_path=11) | count=4380
+	(sde=13, delta_ham=1, T_path=11) | count=672
+	(sde=14, delta_ham=1, T_path=11) | count=996
+	(sde=13, delta_ham=-1, T_path=10) | count=240
+	(sde=14, delta_ham=1, T_path=10) | count=1680
+	(sde=13, delta_ham=-1, T_path=12) | count=360
+	(sde=13, delta_ham=1, T_path=12) | count=3168
+	(sde=9, delta_ham=-1, T_path=12) | count=136
+	(sde=12, delta_ham=1, T_path=12) | count=1152
+	(sde=14, delta_ham=0, T_path=10) | count=720
+	(sde=12, delta_ham=0, T_path=11) | count=432
+	(sde=11, delta_ham=1, T_path=11) | count=144
+	(sde=18, delta_ham=0, T_path=10) | count=624
+	(sde=19, delta_ham=1, T_path=9) | count=240
+	(sde=16, delta_ham=1, T_path=13) | count=544
+	(sde=17, delta_ham=0, T_path=9) | count=128
+	(sde=11, delta_ham=-1, T_path=12) | count=352
+	(sde=17, delta_ham=0, T_path=8) | count=64
+	(sde=19, delta_ham=0, T_path=9) | count=720
+	(sde=13, delta_ham=1, T_path=13) | count=80
+	(sde=20, delta_ham=0, T_path=9) | count=192
+	(sde=17, delta_ham=1, T_path=8) | count=32
+	(sde=14, delta_ham=-1, T_path=11) | count=1080
+	(sde=18, delta_ham=0, T_path=9) | count=96
+	(sde=17, delta_ham=1, T_path=13) | count=1904
+	(sde=20, delta_ham=1, T_path=9) | count=592
+	(sde=16, delta_ham=1, T_path=9) | count=32
+	(sde=20, delta_ham=0, T_path=8) | count=160
+	(sde=14, delta_ham=-1, T_path=13) | count=64
+	(sde=19, delta_ham=-1, T_path=7) | count=8
+	(sde=17, delta_ham=0, T_path=7) | count=16
+	(sde=17, delta_ham=0, T_path=10) | count=64
+	(sde=11, delta_ham=-1, T_path=14) | count=56
+	(sde=11, delta_ham=0, T_path=12) | count=140
+	(sde=10, delta_ham=-1, T_path=11) | count=288
+	(sde=15, delta_ham=0, T_path=11) | count=1116
+	(sde=18, delta_ham=1, T_path=8) | count=32
+	(sde=14, delta_ham=-1, T_path=10) | count=480
+	(sde=18, delta_ham=0, T_path=8) | count=96
+	(sde=11, delta_ham=1, T_path=12) | count=1316
+	(sde=14, delta_ham=0, T_path=13) | count=256
+	(sde=12, delta_ham=-1, T_path=11) | count=624
+	(sde=13, delta_ham=0, T_path=14) | count=216
+	(sde=19, delta_ham=0, T_path=8) | count=256
+	(sde=12, delta_ham=1, T_path=13) | count=80
+	(sde=20, delta_ham=0, T_path=10) | count=1712
+	(sde=19, delta_ham=-1, T_path=9) | count=64
+	(sde=15, delta_ham=1, T_path=14) | count=2032
+	(sde=20, delta_ham=-1, T_path=8) | count=16
+	(sde=19, delta_ham=0, T_path=10) | count=416
+	(sde=20, delta_ham=-1, T_path=10) | count=128
+	(sde=16, delta_ham=1, T_path=12) | count=576
+	(sde=18, delta_ham=1, T_path=9) | count=368
+	(sde=19, delta_ham=1, T_path=8) | count=192
+	(sde=15, delta_ham=0, T_path=12) | count=216
+	(sde=18, delta_ham=0, T_path=7) | count=8
+	(sde=14, delta_ham=1, T_path=14) | count=544
+	(sde=16, delta_ham=0, T_path=12) | count=288
+	(sde=15, delta_ham=1, T_path=13) | count=256
+	(sde=13, delta_ham=0, T_path=10) | count=480
+	(sde=16, delta_ham=0, T_path=13) | count=320
+	(sde=15, delta_ham=-1, T_path=11) | count=648
+	(sde=19, delta_ham=0, T_path=7) | count=88
+	(sde=13, delta_ham=1, T_path=14) | count=832
+	(sde=15, delta_ham=0, T_path=13) | count=128
+	(sde=14, delta_ham=1, T_path=13) | count=800
+	(sde=12, delta_ham=-1, T_path=13) | count=80
+	(sde=14, delta_ham=0, T_path=11) | count=852
+	(sde=12, delta_ham=1, T_path=11) | count=1296
+Children hyper-nodes before filtering (the P set): 7 8 9 10 11 12 13 14 
+Children hyper-nodes after filtering (the P set): 7 8 9 10 11 12 13 14 
+Minimal elements (filtered): 
+	(sde=18, delta_ham=0, T_path=7) | count=8
+	(sde=20, delta_ham=-1, T_path=8) | count=16
+	(sde=16, delta_ham=1, T_path=9) | count=32
+	(sde=17, delta_ham=0, T_path=10) | count=64
+	(sde=11, delta_ham=1, T_path=11) | count=144
+	(sde=9, delta_ham=-1, T_path=12) | count=136
+	(sde=14, delta_ham=-1, T_path=13) | count=64
+	(sde=11, delta_ham=-1, T_path=14) | count=56
+Filtering the children nodes in all children hyper-nodes...
+Number of children nodes after filtering (size of G): 485
+------------------
+PARENT LEVEL i: 8
+# of parent hyper-nodes: 8
+Parent hyper-node (T-path): 12
+	136 nodes (unitaries)
+Parent hyper-node (T-path): 11
+	129 nodes (unitaries)
+Parent hyper-node (T-path): 14
+	48 nodes (unitaries)
+Parent hyper-node (T-path): 13
+	64 nodes (unitaries)
+Parent hyper-node (T-path): 10
+	64 nodes (unitaries)
+Parent hyper-node (T-path): 9
+	24 nodes (unitaries)
+Parent hyper-node (T-path): 8
+	16 nodes (unitaries)
+Parent hyper-node (T-path): 7
+	4 nodes (unitaries)
+Computing the children nodes...
+Sorted parents by size: [(7,4) (8,16) (9,24) (14,48) (13,64) (10,64) (11,129) (12,136)]
+	Computing children of parent hyper-node: 7 [size: 4]
+	Computing children of parent hyper-node: 8 [size: 16]
+	Computing children of parent hyper-node: 9 [size: 24]
+	Computing children of parent hyper-node: 14 [size: 48]
+	Computing children of parent hyper-node: 13 [size: 64]
+	Computing children of parent hyper-node: 10 [size: 64]
+	Computing children of parent hyper-node: 11 [size: 129]
+	Computing children of parent hyper-node: 12 [size: 136]
+Number of children nodes (USH size): 59170
+Now displaying the children nodes, unfiltered (SH): 
+	(sde=11, delta_ham=1, T_path=14) | count=7196
+	(sde=9, delta_ham=-1, T_path=14) | count=1852
+	(sde=9, delta_ham=1, T_path=13) | count=272
+	(sde=8, delta_ham=-1, T_path=13) | count=544
+	(sde=13, delta_ham=-1, T_path=13) | count=1428
+	(sde=12, delta_ham=1, T_path=13) | count=1844
+	(sde=11, delta_ham=-1, T_path=13) | count=1024
+	(sde=11, delta_ham=1, T_path=12) | count=258
+	(sde=17, delta_ham=-1, T_path=12) | count=128
+	(sde=18, delta_ham=0, T_path=12) | count=832
+	(sde=17, delta_ham=0, T_path=12) | count=1024
+	(sde=19, delta_ham=-1, T_path=12) | count=192
+	(sde=19, delta_ham=0, T_path=12) | count=3712
+	(sde=16, delta_ham=0, T_path=15) | count=128
+	(sde=16, delta_ham=1, T_path=15) | count=2368
+	(sde=17, delta_ham=0, T_path=10) | count=480
+	(sde=12, delta_ham=1, T_path=12) | count=1806
+	(sde=12, delta_ham=0, T_path=15) | count=96
+	(sde=18, delta_ham=1, T_path=10) | count=64
+	(sde=18, delta_ham=0, T_path=11) | count=2480
+	(sde=9, delta_ham=1, T_path=14) | count=1408
+	(sde=11, delta_ham=-1, T_path=16) | count=1368
+	(sde=10, delta_ham=1, T_path=13) | count=2992
+	(sde=20, delta_ham=1, T_path=10) | count=352
+	(sde=21, delta_ham=0, T_path=10) | count=64
+	(sde=20, delta_ham=0, T_path=10) | count=96
+	(sde=21, delta_ham=1, T_path=9) | count=192
+	(sde=17, delta_ham=0, T_path=9) | count=32
+	(sde=10, delta_ham=1, T_path=14) | count=1956
+	(sde=20, delta_ham=1, T_path=9) | count=32
+	(sde=12, delta_ham=-1, T_path=13) | count=1136
+	(sde=12, delta_ham=0, T_path=12) | count=258
+	(sde=15, delta_ham=0, T_path=10) | count=48
+	(sde=18, delta_ham=0, T_path=9) | count=80
+	(sde=9, delta_ham=-1, T_path=16) | count=72
+	(sde=14, delta_ham=1, T_path=15) | count=1856
+	(sde=18, delta_ham=0, T_path=8) | count=8
+	(sde=19, delta_ham=1, T_path=9) | count=32
+	(sde=11, delta_ham=-1, T_path=12) | count=516
+	(sde=17, delta_ham=0, T_path=8) | count=16
+	(sde=12, delta_ham=0, T_path=13) | count=180
+	(sde=12, delta_ham=-1, T_path=12) | count=1032
+	(sde=18, delta_ham=-1, T_path=9) | count=16
+	(sde=11, delta_ham=1, T_path=15) | count=96
+	(sde=12, delta_ham=-1, T_path=15) | count=96
+	(sde=22, delta_ham=1, T_path=10) | count=464
+	(sde=14, delta_ham=0, T_path=15) | count=128
+	(sde=12, delta_ham=1, T_path=15) | count=1184
+	(sde=13, delta_ham=1, T_path=16) | count=1872
+	(sde=19, delta_ham=0, T_path=9) | count=96
+	(sde=22, delta_ham=0, T_path=10) | count=176
+	(sde=16, delta_ham=0, T_path=10) | count=48
+	(sde=11, delta_ham=1, T_path=16) | count=168
+	(sde=13, delta_ham=1, T_path=13) | count=4724
+	(sde=21, delta_ham=0, T_path=9) | count=192
+	(sde=20, delta_ham=0, T_path=9) | count=160
+	(sde=16, delta_ham=0, T_path=11) | count=592
+	(sde=10, delta_ham=-1, T_path=13) | count=992
+	(sde=15, delta_ham=1, T_path=15) | count=1184
+	(sde=19, delta_ham=-1, T_path=8) | count=8
+	(sde=20, delta_ham=-1, T_path=9) | count=16
+	(sde=7, delta_ham=-1, T_path=14) | count=100
+	(sde=19, delta_ham=0, T_path=8) | count=88
+	(sde=13, delta_ham=0, T_path=14) | count=128
+	(sde=21, delta_ham=1, T_path=10) | count=256
+	(sde=13, delta_ham=0, T_path=16) | count=168
+	(sde=15, delta_ham=-1, T_path=10) | count=48
+	(sde=18, delta_ham=-1, T_path=11) | count=328
+	(sde=13, delta_ham=0, T_path=13) | count=324
+	(sde=13, delta_ham=1, T_path=14) | count=128
+	(sde=17, delta_ham=0, T_path=11) | count=488
+	(sde=16, delta_ham=-1, T_path=11) | count=240
+	(sde=10, delta_ham=-1, T_path=15) | count=192
+	(sde=11, delta_ham=1, T_path=13) | count=488
+	(sde=17, delta_ham=-1, T_path=10) | count=96
+	(sde=12, delta_ham=1, T_path=16) | count=768
+	(sde=15, delta_ham=1, T_path=14) | count=1152
+	(sde=14, delta_ham=1, T_path=14) | count=128
+	(sde=15, delta_ham=0, T_path=14) | count=384
+Children hyper-nodes before filtering (the P set): 8 9 10 11 12 13 14 15 16 
+Children hyper-nodes after filtering (the P set): 8 9 10 11 12 13 14 15 16 
+Minimal elements (filtered): 
+	(sde=18, delta_ham=0, T_path=8) | count=8
+	(sde=18, delta_ham=-1, T_path=9) | count=16
+	(sde=15, delta_ham=-1, T_path=10) | count=48
+	(sde=16, delta_ham=-1, T_path=11) | count=240
+	(sde=17, delta_ham=-1, T_path=12) | count=128
+	(sde=12, delta_ham=0, T_path=13) | count=180
+	(sde=7, delta_ham=-1, T_path=14) | count=100
+	(sde=11, delta_ham=1, T_path=15) | count=96
+	(sde=9, delta_ham=-1, T_path=16) | count=72
+Filtering the children nodes in all children hyper-nodes...
+Number of children nodes after filtering (size of G): 694
+------------------
+PARENT LEVEL i: 9
+# of parent hyper-nodes: 9
+Parent hyper-node (T-path): 14
+	62 nodes (unitaries)
+Parent hyper-node (T-path): 13
+	114 nodes (unitaries)
+Parent hyper-node (T-path): 12
+	128 nodes (unitaries)
+Parent hyper-node (T-path): 16
+	56 nodes (unitaries)
+Parent hyper-node (T-path): 15
+	96 nodes (unitaries)
+Parent hyper-node (T-path): 11
+	176 nodes (unitaries)
+Parent hyper-node (T-path): 10
+	42 nodes (unitaries)
+Parent hyper-node (T-path): 9
+	16 nodes (unitaries)
+Parent hyper-node (T-path): 8
+	4 nodes (unitaries)
+Computing the children nodes...
+Sorted parents by size: [(8,4) (9,16) (10,42) (16,56) (14,62) (15,96) (13,114) (12,128) (11,176)]
+	Computing children of parent hyper-node: 8 [size: 4]
+	Computing children of parent hyper-node: 9 [size: 16]
+	Computing children of parent hyper-node: 10 [size: 42]
+	Computing children of parent hyper-node: 16 [size: 56]
+	Computing children of parent hyper-node: 14 [size: 62]
+	Computing children of parent hyper-node: 15 [size: 96]
+	Computing children of parent hyper-node: 13 [size: 114]
+	Computing children of parent hyper-node: 12 [size: 128]
+	Computing children of parent hyper-node: 11 [size: 176]
+Number of children nodes (USH size): 84668
+Now displaying the children nodes, unfiltered (SH): 
+	(sde=16, delta_ham=0, T_path=13) | count=352
+	(sde=18, delta_ham=1, T_path=14) | count=1984
+	(sde=14, delta_ham=-1, T_path=13) | count=144
+	(sde=17, delta_ham=1, T_path=14) | count=3360
+	(sde=15, delta_ham=1, T_path=13) | count=224
+	(sde=18, delta_ham=0, T_path=14) | count=384
+	(sde=17, delta_ham=0, T_path=14) | count=576
+	(sde=17, delta_ham=-1, T_path=14) | count=96
+	(sde=17, delta_ham=1, T_path=13) | count=2768
+	(sde=16, delta_ham=1, T_path=13) | count=3088
+	(sde=16, delta_ham=-1, T_path=13) | count=1424
+	(sde=14, delta_ham=-1, T_path=15) | count=180
+	(sde=15, delta_ham=-1, T_path=14) | count=160
+	(sde=13, delta_ham=1, T_path=15) | count=2376
+	(sde=17, delta_ham=0, T_path=13) | count=304
+	(sde=14, delta_ham=1, T_path=15) | count=4104
+	(sde=18, delta_ham=1, T_path=13) | count=9648
+	(sde=13, delta_ham=-1, T_path=14) | count=228
+	(sde=11, delta_ham=1, T_path=14) | count=228
+	(sde=12, delta_ham=1, T_path=14) | count=228
+	(sde=13, delta_ham=1, T_path=14) | count=1824
+	(sde=10, delta_ham=-1, T_path=17) | count=912
+	(sde=12, delta_ham=1, T_path=15) | count=2640
+	(sde=14, delta_ham=0, T_path=15) | count=636
+	(sde=12, delta_ham=-1, T_path=17) | count=1200
+	(sde=11, delta_ham=-1, T_path=17) | count=1536
+	(sde=12, delta_ham=1, T_path=17) | count=1104
+	(sde=13, delta_ham=1, T_path=17) | count=4080
+	(sde=11, delta_ham=-1, T_path=16) | count=576
+	(sde=12, delta_ham=1, T_path=16) | count=2304
+	(sde=6, delta_ham=-1, T_path=16) | count=120
+	(sde=7, delta_ham=1, T_path=16) | count=1488
+	(sde=15, delta_ham=0, T_path=11) | count=84
+	(sde=19, delta_ham=0, T_path=11) | count=16
+	(sde=17, delta_ham=1, T_path=10) | count=32
+	(sde=18, delta_ham=0, T_path=10) | count=96
+	(sde=14, delta_ham=0, T_path=11) | count=84
+	(sde=19, delta_ham=1, T_path=10) | count=192
+	(sde=20, delta_ham=-1, T_path=10) | count=16
+	(sde=18, delta_ham=0, T_path=9) | count=8
+	(sde=14, delta_ham=-1, T_path=11) | count=84
+	(sde=17, delta_ham=1, T_path=12) | count=4560
+	(sde=19, delta_ham=-1, T_path=9) | count=8
+	(sde=15, delta_ham=0, T_path=14) | count=256
+	(sde=18, delta_ham=1, T_path=11) | count=368
+	(sde=13, delta_ham=-1, T_path=12) | count=120
+	(sde=9, delta_ham=1, T_path=18) | count=320
+	(sde=18, delta_ham=0, T_path=11) | count=32
+	(sde=15, delta_ham=0, T_path=13) | count=224
+	(sde=18, delta_ham=1, T_path=10) | count=32
+	(sde=16, delta_ham=1, T_path=12) | count=976
+	(sde=13, delta_ham=0, T_path=14) | count=684
+	(sde=15, delta_ham=-1, T_path=12) | count=832
+	(sde=19, delta_ham=0, T_path=9) | count=88
+	(sde=7, delta_ham=-1, T_path=15) | count=248
+	(sde=20, delta_ham=1, T_path=11) | count=592
+	(sde=20, delta_ham=0, T_path=10) | count=160
+	(sde=19, delta_ham=1, T_path=14) | count=3648
+	(sde=16, delta_ham=0, T_path=11) | count=336
+	(sde=8, delta_ham=1, T_path=16) | count=1488
+	(sde=17, delta_ham=0, T_path=9) | count=16
+	(sde=18, delta_ham=0, T_path=13) | count=1856
+	(sde=15, delta_ham=1, T_path=12) | count=552
+	(sde=19, delta_ham=1, T_path=11) | count=240
+	(sde=11, delta_ham=-1, T_path=14) | count=228
+	(sde=17, delta_ham=0, T_path=10) | count=64
+	(sde=19, delta_ham=0, T_path=10) | count=256
+	(sde=19, delta_ham=0, T_path=14) | count=1312
+	(sde=16, delta_ham=-1, T_path=11) | count=84
+	(sde=15, delta_ham=0, T_path=12) | count=280
+	(sde=17, delta_ham=0, T_path=12) | count=1632
+	(sde=8, delta_ham=-1, T_path=15) | count=992
+	(sde=8, delta_ham=1, T_path=15) | count=496
+	(sde=16, delta_ham=0, T_path=12) | count=192
+	(sde=20, delta_ham=0, T_path=11) | count=192
+	(sde=9, delta_ham=-1, T_path=16) | count=992
+	(sde=10, delta_ham=1, T_path=17) | count=1344
+	(sde=8, delta_ham=-1, T_path=17) | count=224
+	(sde=16, delta_ham=1, T_path=11) | count=620
+	(sde=7, delta_ham=1, T_path=15) | count=124
+	(sde=9, delta_ham=1, T_path=17) | count=112
+	(sde=11, delta_ham=1, T_path=18) | count=3472
+	(sde=9, delta_ham=1, T_path=16) | count=1616
+	(sde=10, delta_ham=1, T_path=18) | count=688
+	(sde=11, delta_ham=0, T_path=15) | count=456
+	(sde=9, delta_ham=-1, T_path=18) | count=448
+	(sde=11, delta_ham=1, T_path=15) | count=96
+	(sde=9, delta_ham=0, T_path=18) | count=224
+Children hyper-nodes before filtering (the P set): 9 10 11 12 13 14 15 16 17 18 
+Children hyper-nodes after filtering (the P set): 9 10 11 12 13 14 15 16 17 18 
+Minimal elements (filtered): 
+	(sde=18, delta_ham=0, T_path=9) | count=8
+	(sde=20, delta_ham=-1, T_path=10) | count=16
+	(sde=19, delta_ham=0, T_path=11) | count=16
+	(sde=13, delta_ham=-1, T_path=12) | count=120
+	(sde=14, delta_ham=-1, T_path=13) | count=144
+	(sde=17, delta_ham=-1, T_path=14) | count=96
+	(sde=11, delta_ham=1, T_path=15) | count=96
+	(sde=6, delta_ham=-1, T_path=16) | count=120
+	(sde=9, delta_ham=1, T_path=17) | count=112
+	(sde=9, delta_ham=0, T_path=18) | count=224
+Filtering the children nodes in all children hyper-nodes...
+Number of children nodes after filtering (size of G): 776
+------------------
+PARENT LEVEL i: 10
+# of parent hyper-nodes: 10
+Parent hyper-node (T-path): 13
+	108 nodes (unitaries)
+Parent hyper-node (T-path): 14
+	80 nodes (unitaries)
+Parent hyper-node (T-path): 15
+	32 nodes (unitaries)
+Parent hyper-node (T-path): 16
+	80 nodes (unitaries)
+Parent hyper-node (T-path): 18
+	208 nodes (unitaries)
+Parent hyper-node (T-path): 17
+	112 nodes (unitaries)
+Parent hyper-node (T-path): 12
+	120 nodes (unitaries)
+Parent hyper-node (T-path): 11
+	16 nodes (unitaries)
+Parent hyper-node (T-path): 10
+	16 nodes (unitaries)
+Parent hyper-node (T-path): 9
+	4 nodes (unitaries)
+Computing the children nodes...
+Sorted parents by size: [(9,4) (11,16) (10,16) (15,32) (14,80) (16,80) (13,108) (17,112) (12,120) (18,208)]
+	Computing children of parent hyper-node: 9 [size: 4]
+	Computing children of parent hyper-node: 11 [size: 16]
+	Computing children of parent hyper-node: 10 [size: 16]
+	Computing children of parent hyper-node: 15 [size: 32]
+	Computing children of parent hyper-node: 14 [size: 80]
+	Computing children of parent hyper-node: 16 [size: 80]
+	Computing children of parent hyper-node: 13 [size: 108]
+	Computing children of parent hyper-node: 17 [size: 112]
+	Computing children of parent hyper-node: 12 [size: 120]
+	Computing children of parent hyper-node: 18 [size: 208]
+Number of children nodes (USH size): 94672
+Now displaying the children nodes, unfiltered (SH): 
+	(sde=9, delta_ham=-1, T_path=20) | count=2304
+	(sde=13, delta_ham=1, T_path=13) | count=240
+	(sde=12, delta_ham=-1, T_path=13) | count=480
+	(sde=9, delta_ham=1, T_path=19) | count=896
+	(sde=11, delta_ham=1, T_path=19) | count=6944
+	(sde=9, delta_ham=-1, T_path=18) | count=672
+	(sde=10, delta_ham=1, T_path=20) | count=3744
+	(sde=16, delta_ham=1, T_path=15) | count=5592
+	(sde=14, delta_ham=1, T_path=15) | count=1416
+	(sde=15, delta_ham=1, T_path=15) | count=1632
+	(sde=14, delta_ham=1, T_path=14) | count=2136
+	(sde=15, delta_ham=0, T_path=14) | count=1440
+	(sde=13, delta_ham=1, T_path=15) | count=168
+	(sde=15, delta_ham=-1, T_path=14) | count=216
+	(sde=15, delta_ham=1, T_path=14) | count=7080
+	(sde=7, delta_ham=0, T_path=18) | count=320
+	(sde=6, delta_ham=0, T_path=18) | count=320
+	(sde=6, delta_ham=-1, T_path=18) | count=320
+	(sde=7, delta_ham=1, T_path=18) | count=1280
+	(sde=7, delta_ham=1, T_path=17) | count=1600
+	(sde=6, delta_ham=1, T_path=17) | count=160
+	(sde=18, delta_ham=0, T_path=16) | count=320
+	(sde=18, delta_ham=0, T_path=15) | count=320
+	(sde=10, delta_ham=-1, T_path=19) | count=1792
+	(sde=16, delta_ham=-1, T_path=15) | count=80
+	(sde=17, delta_ham=0, T_path=16) | count=1120
+	(sde=15, delta_ham=0, T_path=16) | count=160
+	(sde=18, delta_ham=1, T_path=16) | count=960
+	(sde=19, delta_ham=0, T_path=13) | count=128
+	(sde=20, delta_ham=1, T_path=12) | count=608
+	(sde=18, delta_ham=0, T_path=13) | count=192
+	(sde=8, delta_ham=-1, T_path=19) | count=832
+	(sde=20, delta_ham=0, T_path=11) | count=160
+	(sde=18, delta_ham=0, T_path=11) | count=80
+	(sde=6, delta_ham=-1, T_path=17) | count=160
+	(sde=11, delta_ham=-1, T_path=16) | count=64
+	(sde=13, delta_ham=-1, T_path=17) | count=256
+	(sde=15, delta_ham=-1, T_path=16) | count=160
+	(sde=19, delta_ham=1, T_path=11) | count=32
+	(sde=10, delta_ham=1, T_path=18) | count=2688
+	(sde=20, delta_ham=0, T_path=12) | count=224
+	(sde=20, delta_ham=1, T_path=13) | count=192
+	(sde=13, delta_ham=1, T_path=14) | count=2232
+	(sde=21, delta_ham=1, T_path=13) | count=576
+	(sde=9, delta_ham=1, T_path=20) | count=2432
+	(sde=11, delta_ham=-1, T_path=14) | count=192
+	(sde=5, delta_ham=-1, T_path=17) | count=160
+	(sde=17, delta_ham=0, T_path=10) | count=16
+	(sde=18, delta_ham=0, T_path=10) | count=8
+	(sde=8, delta_ham=1, T_path=18) | count=4800
+	(sde=11, delta_ham=-1, T_path=17) | count=256
+	(sde=13, delta_ham=1, T_path=17) | count=768
+	(sde=18, delta_ham=-1, T_path=11) | count=16
+	(sde=7, delta_ham=-1, T_path=18) | count=320
+	(sde=19, delta_ham=0, T_path=12) | count=96
+	(sde=19, delta_ham=1, T_path=16) | count=2880
+	(sde=20, delta_ham=1, T_path=11) | count=32
+	(sde=22, delta_ham=1, T_path=12) | count=464
+	(sde=21, delta_ham=1, T_path=11) | count=192
+	(sde=9, delta_ham=0, T_path=20) | count=1472
+	(sde=11, delta_ham=1, T_path=17) | count=256
+	(sde=7, delta_ham=-1, T_path=20) | count=640
+	(sde=20, delta_ham=-1, T_path=11) | count=16
+	(sde=19, delta_ham=-1, T_path=10) | count=8
+	(sde=12, delta_ham=1, T_path=16) | count=512
+	(sde=10, delta_ham=1, T_path=19) | count=5888
+	(sde=20, delta_ham=0, T_path=13) | count=256
+	(sde=18, delta_ham=1, T_path=15) | count=1600
+	(sde=16, delta_ham=0, T_path=15) | count=672
+	(sde=21, delta_ham=0, T_path=11) | count=192
+	(sde=19, delta_ham=0, T_path=10) | count=88
+	(sde=14, delta_ham=1, T_path=13) | count=1680
+	(sde=17, delta_ham=0, T_path=11) | count=32
+	(sde=7, delta_ham=-1, T_path=17) | count=320
+	(sde=19, delta_ham=0, T_path=11) | count=96
+	(sde=21, delta_ham=0, T_path=12) | count=64
+	(sde=14, delta_ham=0, T_path=13) | count=1200
+	(sde=12, delta_ham=1, T_path=17) | count=288
+	(sde=13, delta_ham=0, T_path=14) | count=984
+	(sde=21, delta_ham=1, T_path=12) | count=256
+	(sde=18, delta_ham=1, T_path=12) | count=64
+	(sde=19, delta_ham=1, T_path=13) | count=128
+	(sde=22, delta_ham=0, T_path=12) | count=176
+	(sde=11, delta_ham=1, T_path=16) | count=64
+	(sde=14, delta_ham=0, T_path=15) | count=336
+	(sde=12, delta_ham=-1, T_path=17) | count=448
+	(sde=12, delta_ham=0, T_path=16) | count=128
+	(sde=9, delta_ham=-1, T_path=19) | count=192
+	(sde=11, delta_ham=0, T_path=16) | count=64
+	(sde=12, delta_ham=-1, T_path=16) | count=128
+	(sde=12, delta_ham=0, T_path=17) | count=160
+	(sde=11, delta_ham=1, T_path=20) | count=8544
+	(sde=10, delta_ham=-1, T_path=17) | count=384
+	(sde=13, delta_ham=0, T_path=17) | count=128
+	(sde=17, delta_ham=0, T_path=15) | count=160
+	(sde=14, delta_ham=-1, T_path=15) | count=360
+	(sde=17, delta_ham=1, T_path=16) | count=1760
+Children hyper-nodes before filtering (the P set): 10 11 12 13 14 15 16 17 18 19 20 
+Children hyper-nodes after filtering (the P set): 10 11 12 13 14 15 16 17 18 19 20 
+Minimal elements (filtered): 
+	(sde=18, delta_ham=0, T_path=10) | count=8
+	(sde=18, delta_ham=-1, T_path=11) | count=16
+	(sde=18, delta_ham=1, T_path=12) | count=64
+	(sde=18, delta_ham=0, T_path=13) | count=192
+	(sde=11, delta_ham=-1, T_path=14) | count=192
+	(sde=16, delta_ham=-1, T_path=15) | count=80
+	(sde=11, delta_ham=-1, T_path=16) | count=64
+	(sde=13, delta_ham=0, T_path=17) | count=128
+	(sde=6, delta_ham=-1, T_path=18) | count=320
+	(sde=9, delta_ham=-1, T_path=19) | count=192
+	(sde=7, delta_ham=-1, T_path=20) | count=640
+Filtering the children nodes in all children hyper-nodes...
+Number of children nodes after filtering (size of G): 1380
+------------------
+PARENT LEVEL i: 11
+# of parent hyper-nodes: 11
+Parent hyper-node (T-path): 20
+	384 nodes (unitaries)
+Parent hyper-node (T-path): 14
+	144 nodes (unitaries)
+Parent hyper-node (T-path): 19
+	120 nodes (unitaries)
+Parent hyper-node (T-path): 18
+	304 nodes (unitaries)
+Parent hyper-node (T-path): 15
+	56 nodes (unitaries)
+Parent hyper-node (T-path): 17
+	128 nodes (unitaries)
+Parent hyper-node (T-path): 16
+	64 nodes (unitaries)
+Parent hyper-node (T-path): 12
+	32 nodes (unitaries)
+Parent hyper-node (T-path): 13
+	128 nodes (unitaries)
+Parent hyper-node (T-path): 11
+	16 nodes (unitaries)
+Parent hyper-node (T-path): 10
+	4 nodes (unitaries)
+Computing the children nodes...
+Sorted parents by size: [(10,4) (11,16) (12,32) (15,56) (16,64) (19,120) (17,128) (13,128) (14,144) (18,304) (20,384)]
+	Computing children of parent hyper-node: 10 [size: 4]
+	Computing children of parent hyper-node: 11 [size: 16]
+	Computing children of parent hyper-node: 12 [size: 32]
+	Computing children of parent hyper-node: 15 [size: 56]
+	Computing children of parent hyper-node: 16 [size: 64]
+	Computing children of parent hyper-node: 19 [size: 120]
+	Computing children of parent hyper-node: 17 [size: 128]
+	Computing children of parent hyper-node: 13 [size: 128]
+	Computing children of parent hyper-node: 14 [size: 144]
+	Computing children of parent hyper-node: 18 [size: 304]
+	Computing children of parent hyper-node: 20 [size: 384]
+Number of children nodes (USH size): 168360
+Now displaying the children nodes, unfiltered (SH): 
+	(sde=5, delta_ham=-1, T_path=22) | count=608
+	(sde=7, delta_ham=0, T_path=22) | count=512
+	(sde=7, delta_ham=-1, T_path=22) | count=2464
+	(sde=8, delta_ham=1, T_path=22) | count=6128
+	(sde=9, delta_ham=1, T_path=22) | count=20144
+	(sde=7, delta_ham=1, T_path=21) | count=768
+	(sde=8, delta_ham=1, T_path=21) | count=9216
+	(sde=6, delta_ham=0, T_path=20) | count=2048
+	(sde=5, delta_ham=-1, T_path=20) | count=2112
+	(sde=20, delta_ham=-1, T_path=14) | count=128
+	(sde=10, delta_ham=-1, T_path=17) | count=128
+	(sde=12, delta_ham=0, T_path=17) | count=640
+	(sde=13, delta_ham=1, T_path=18) | count=1248
+	(sde=11, delta_ham=1, T_path=17) | count=128
+	(sde=17, delta_ham=1, T_path=17) | count=672
+	(sde=17, delta_ham=0, T_path=16) | count=224
+	(sde=7, delta_ham=1, T_path=19) | count=6080
+	(sde=17, delta_ham=1, T_path=16) | count=1120
+	(sde=9, delta_ham=-1, T_path=21) | count=960
+	(sde=17, delta_ham=0, T_path=14) | count=416
+	(sde=16, delta_ham=0, T_path=17) | count=336
+	(sde=18, delta_ham=1, T_path=17) | count=2352
+	(sde=17, delta_ham=1, T_path=12) | count=32
+	(sde=11, delta_ham=1, T_path=18) | count=1632
+	(sde=19, delta_ham=0, T_path=15) | count=704
+	(sde=19, delta_ham=0, T_path=14) | count=1760
+	(sde=12, delta_ham=1, T_path=18) | count=1344
+	(sde=10, delta_ham=-1, T_path=15) | count=576
+	(sde=19, delta_ham=0, T_path=12) | count=256
+	(sde=15, delta_ham=1, T_path=19) | count=5632
+	(sde=17, delta_ham=0, T_path=12) | count=64
+	(sde=19, delta_ham=-1, T_path=13) | count=64
+	(sde=20, delta_ham=-1, T_path=12) | count=16
+	(sde=18, delta_ham=0, T_path=12) | count=96
+	(sde=20, delta_ham=0, T_path=12) | count=160
+	(sde=20, delta_ham=1, T_path=13) | count=592
+	(sde=8, delta_ham=-1, T_path=20) | count=480
+	(sde=18, delta_ham=0, T_path=13) | count=96
+	(sde=12, delta_ham=0, T_path=18) | count=64
+	(sde=17, delta_ham=0, T_path=11) | count=16
+	(sde=17, delta_ham=0, T_path=17) | count=224
+	(sde=18, delta_ham=1, T_path=13) | count=368
+	(sde=6, delta_ham=-1, T_path=21) | count=1536
+	(sde=16, delta_ham=1, T_path=17) | count=1456
+	(sde=12, delta_ham=-1, T_path=17) | count=384
+	(sde=9, delta_ham=1, T_path=21) | count=1440
+	(sde=18, delta_ham=0, T_path=11) | count=8
+	(sde=19, delta_ham=0, T_path=11) | count=88
+	(sde=18, delta_ham=1, T_path=12) | count=32
+	(sde=12, delta_ham=1, T_path=17) | count=512
+	(sde=16, delta_ham=1, T_path=13) | count=32
+	(sde=20, delta_ham=0, T_path=15) | count=1920
+	(sde=17, delta_ham=0, T_path=13) | count=128
+	(sde=20, delta_ham=0, T_path=13) | count=192
+	(sde=11, delta_ham=0, T_path=19) | count=512
+	(sde=19, delta_ham=0, T_path=13) | count=720
+	(sde=10, delta_ham=0, T_path=17) | count=128
+	(sde=19, delta_ham=-1, T_path=11) | count=8
+	(sde=13, delta_ham=1, T_path=16) | count=6336
+	(sde=11, delta_ham=0, T_path=16) | count=280
+	(sde=7, delta_ham=-1, T_path=19) | count=1216
+	(sde=20, delta_ham=0, T_path=14) | count=1712
+	(sde=14, delta_ham=1, T_path=17) | count=112
+	(sde=10, delta_ham=1, T_path=20) | count=2880
+	(sde=20, delta_ham=1, T_path=15) | count=3904
+	(sde=15, delta_ham=1, T_path=16) | count=112
+	(sde=19, delta_ham=1, T_path=13) | count=240
+	(sde=18, delta_ham=0, T_path=14) | count=720
+	(sde=13, delta_ham=-1, T_path=18) | count=864
+	(sde=9, delta_ham=-1, T_path=18) | count=256
+	(sde=11, delta_ham=-1, T_path=18) | count=544
+	(sde=6, delta_ham=-1, T_path=19) | count=608
+	(sde=11, delta_ham=1, T_path=15) | count=288
+	(sde=15, delta_ham=0, T_path=16) | count=112
+	(sde=9, delta_ham=1, T_path=20) | count=240
+	(sde=5, delta_ham=1, T_path=19) | count=608
+	(sde=14, delta_ham=1, T_path=18) | count=3072
+	(sde=10, delta_ham=1, T_path=21) | count=1248
+	(sde=11, delta_ham=1, T_path=21) | count=7392
+	(sde=16, delta_ham=1, T_path=16) | count=112
+	(sde=12, delta_ham=-1, T_path=18) | count=256
+	(sde=13, delta_ham=-1, T_path=19) | count=1216
+	(sde=5, delta_ham=-1, T_path=19) | count=608
+	(sde=12, delta_ham=0, T_path=15) | count=864
+	(sde=12, delta_ham=1, T_path=15) | count=2592
+	(sde=14, delta_ham=-1, T_path=19) | count=1536
+	(sde=7, delta_ham=-1, T_path=20) | count=1920
+	(sde=13, delta_ham=1, T_path=19) | count=1664
+	(sde=19, delta_ham=1, T_path=14) | count=1728
+	(sde=17, delta_ham=1, T_path=14) | count=160
+	(sde=13, delta_ham=0, T_path=19) | count=192
+	(sde=18, delta_ham=1, T_path=14) | count=160
+	(sde=19, delta_ham=1, T_path=15) | count=1344
+	(sde=13, delta_ham=0, T_path=18) | count=448
+	(sde=18, delta_ham=1, T_path=15) | count=1584
+	(sde=16, delta_ham=0, T_path=15) | count=192
+	(sde=8, delta_ham=1, T_path=20) | count=12672
+	(sde=18, delta_ham=0, T_path=15) | count=1792
+	(sde=17, delta_ham=1, T_path=15) | count=336
+	(sde=11, delta_ham=1, T_path=16) | count=2632
+	(sde=12, delta_ham=1, T_path=16) | count=2304
+	(sde=11, delta_ham=-1, T_path=16) | count=704
+	(sde=7, delta_ham=1, T_path=22) | count=5472
+	(sde=9, delta_ham=-1, T_path=16) | count=272
+	(sde=19, delta_ham=1, T_path=12) | count=192
+	(sde=13, delta_ham=-1, T_path=16) | count=720
+	(sde=14, delta_ham=1, T_path=19) | count=1024
+	(sde=6, delta_ham=1, T_path=20) | count=5568
+	(sde=7, delta_ham=1, T_path=20) | count=3648
+Children hyper-nodes before filtering (the P set): 11 12 13 14 15 16 17 18 19 20 21 22 
+Children hyper-nodes after filtering (the P set): 13 15 16 17 18 19 20 21 22 
+Minimal elements (filtered): 
+	(sde=16, delta_ham=1, T_path=13) | count=32
+	(sde=16, delta_ham=0, T_path=15) | count=192
+	(sde=15, delta_ham=0, T_path=16) | count=112
+	(sde=14, delta_ham=1, T_path=17) | count=112
+	(sde=12, delta_ham=0, T_path=18) | count=64
+	(sde=13, delta_ham=0, T_path=19) | count=192
+	(sde=9, delta_ham=1, T_path=20) | count=240
+	(sde=7, delta_ham=1, T_path=21) | count=768
+	(sde=7, delta_ham=0, T_path=22) | count=512
+Filtering the children nodes in all children hyper-nodes...
+Number of children nodes after filtering (size of G): 1590
+------------------
+PARENT LEVEL i: 12
+# of parent hyper-nodes: 9
+Parent hyper-node (T-path): 22
+	204 nodes (unitaries)
+Parent hyper-node (T-path): 21
+	704 nodes (unitaries)
+Parent hyper-node (T-path): 15
+	138 nodes (unitaries)
+Parent hyper-node (T-path): 19
+	144 nodes (unitaries)
+Parent hyper-node (T-path): 20
+	140 nodes (unitaries)
+Parent hyper-node (T-path): 18
+	48 nodes (unitaries)
+Parent hyper-node (T-path): 17
+	88 nodes (unitaries)
+Parent hyper-node (T-path): 16
+	100 nodes (unitaries)
+Parent hyper-node (T-path): 13
+	24 nodes (unitaries)
+Computing the children nodes...
+Sorted parents by size: [(13,24) (18,48) (17,88) (16,100) (15,138) (20,140) (19,144) (22,204) (21,704)]
+	Computing children of parent hyper-node: 13 [size: 24]
+	Computing children of parent hyper-node: 18 [size: 48]
+	Computing children of parent hyper-node: 17 [size: 88]
+	Computing children of parent hyper-node: 16 [size: 100]
+	Computing children of parent hyper-node: 15 [size: 138]
+	Computing children of parent hyper-node: 20 [size: 140]
+	Computing children of parent hyper-node: 19 [size: 144]
+	Computing children of parent hyper-node: 22 [size: 204]
+	Computing children of parent hyper-node: 21 [size: 704]
+Number of children nodes (USH size): 193980
+Now displaying the children nodes, unfiltered (SH): 
+	(sde=9, delta_ham=1, T_path=23) | count=37792
+	(sde=7, delta_ham=-1, T_path=22) | count=4224
+	(sde=8, delta_ham=-1, T_path=22) | count=5632
+	(sde=9, delta_ham=1, T_path=24) | count=7968
+	(sde=5, delta_ham=-1, T_path=24) | count=816
+	(sde=7, delta_ham=0, T_path=24) | count=816
+	(sde=7, delta_ham=1, T_path=24) | count=4128
+	(sde=7, delta_ham=1, T_path=23) | count=4888
+	(sde=15, delta_ham=1, T_path=21) | count=7552
+	(sde=13, delta_ham=-1, T_path=21) | count=768
+	(sde=13, delta_ham=0, T_path=21) | count=768
+	(sde=12, delta_ham=-1, T_path=20) | count=288
+	(sde=10, delta_ham=0, T_path=22) | count=560
+	(sde=11, delta_ham=-1, T_path=22) | count=5064
+	(sde=10, delta_ham=-1, T_path=22) | count=2240
+	(sde=9, delta_ham=-1, T_path=22) | count=896
+	(sde=10, delta_ham=-1, T_path=21) | count=2240
+	(sde=8, delta_ham=-1, T_path=23) | count=14104
+	(sde=10, delta_ham=1, T_path=21) | count=560
+	(sde=8, delta_ham=1, T_path=22) | count=11264
+	(sde=10, delta_ham=0, T_path=21) | count=560
+	(sde=15, delta_ham=0, T_path=17) | count=144
+	(sde=17, delta_ham=0, T_path=17) | count=552
+	(sde=16, delta_ham=-1, T_path=17) | count=1368
+	(sde=18, delta_ham=0, T_path=17) | count=3312
+	(sde=16, delta_ham=1, T_path=16) | count=276
+	(sde=14, delta_ham=1, T_path=20) | count=4800
+	(sde=11, delta_ham=0, T_path=20) | count=192
+	(sde=8, delta_ham=1, T_path=24) | count=4224
+	(sde=15, delta_ham=0, T_path=14) | count=48
+	(sde=17, delta_ham=1, T_path=18) | count=3312
+	(sde=15, delta_ham=-1, T_path=14) | count=48
+	(sde=15, delta_ham=1, T_path=19) | count=1056
+	(sde=15, delta_ham=0, T_path=18) | count=1104
+	(sde=17, delta_ham=0, T_path=18) | count=976
+	(sde=13, delta_ham=1, T_path=18) | count=288
+	(sde=14, delta_ham=0, T_path=20) | count=576
+	(sde=11, delta_ham=1, T_path=19) | count=192
+	(sde=13, delta_ham=0, T_path=20) | count=384
+	(sde=8, delta_ham=1, T_path=23) | count=7880
+	(sde=18, delta_ham=-1, T_path=15) | count=264
+	(sde=11, delta_ham=-1, T_path=21) | count=192
+	(sde=18, delta_ham=1, T_path=17) | count=4512
+	(sde=16, delta_ham=0, T_path=17) | count=744
+	(sde=13, delta_ham=-1, T_path=19) | count=96
+	(sde=17, delta_ham=-1, T_path=14) | count=96
+	(sde=10, delta_ham=1, T_path=22) | count=560
+	(sde=18, delta_ham=0, T_path=15) | count=1008
+	(sde=16, delta_ham=0, T_path=15) | count=336
+	(sde=14, delta_ham=1, T_path=17) | count=400
+	(sde=17, delta_ham=1, T_path=17) | count=1488
+	(sde=13, delta_ham=1, T_path=20) | count=480
+	(sde=11, delta_ham=-1, T_path=20) | count=192
+	(sde=7, delta_ham=-1, T_path=23) | count=2720
+	(sde=17, delta_ham=0, T_path=16) | count=1656
+	(sde=13, delta_ham=-1, T_path=20) | count=576
+	(sde=15, delta_ham=1, T_path=18) | count=3504
+	(sde=17, delta_ham=0, T_path=14) | count=480
+	(sde=14, delta_ham=-1, T_path=19) | count=1584
+	(sde=16, delta_ham=1, T_path=17) | count=2928
+	(sde=11, delta_ham=1, T_path=22) | count=1096
+	(sde=15, delta_ham=1, T_path=17) | count=248
+	(sde=16, delta_ham=-1, T_path=15) | count=240
+	(sde=14, delta_ham=0, T_path=19) | count=528
+	(sde=12, delta_ham=1, T_path=20) | count=1248
+	(sde=11, delta_ham=0, T_path=22) | count=2464
+	(sde=16, delta_ham=1, T_path=19) | count=1584
+	(sde=7, delta_ham=-1, T_path=24) | count=816
+	(sde=17, delta_ham=0, T_path=15) | count=360
+	(sde=13, delta_ham=1, T_path=19) | count=1760
+	(sde=15, delta_ham=-1, T_path=18) | count=704
+	(sde=12, delta_ham=-1, T_path=19) | count=96
+	(sde=13, delta_ham=-1, T_path=18) | count=176
+	(sde=16, delta_ham=-1, T_path=19) | count=704
+	(sde=6, delta_ham=-1, T_path=23) | count=3504
+	(sde=14, delta_ham=1, T_path=18) | count=176
+	(sde=14, delta_ham=1, T_path=21) | count=2304
+	(sde=16, delta_ham=0, T_path=19) | count=1408
+	(sde=14, delta_ham=1, T_path=19) | count=176
+	(sde=15, delta_ham=0, T_path=19) | count=352
+	(sde=16, delta_ham=1, T_path=18) | count=1600
+	(sde=13, delta_ham=1, T_path=21) | count=1664
+	(sde=17, delta_ham=1, T_path=16) | count=1656
+	(sde=9, delta_ham=-1, T_path=21) | count=840
+	(sde=15, delta_ham=0, T_path=16) | count=276
+	(sde=16, delta_ham=0, T_path=14) | count=48
+	(sde=15, delta_ham=-1, T_path=16) | count=276
+Children hyper-nodes before filtering (the P set): 14 15 16 17 18 19 20 21 22 23 24 
+Children hyper-nodes after filtering (the P set): 17 18 19 20 21 22 23 24 
+Minimal elements (filtered): 
+	(sde=14, delta_ham=1, T_path=17) | count=400
+	(sde=13, delta_ham=-1, T_path=18) | count=176
+	(sde=12, delta_ham=-1, T_path=19) | count=96
+	(sde=11, delta_ham=-1, T_path=20) | count=192
+	(sde=11, delta_ham=-1, T_path=21) | count=192
+	(sde=10, delta_ham=0, T_path=22) | count=560
+	(sde=7, delta_ham=-1, T_path=23) | count=2720
+	(sde=5, delta_ham=-1, T_path=24) | count=816
+Filtering the children nodes in all children hyper-nodes...
+Number of children nodes after filtering (size of G): 3530
+------------------
+PARENT LEVEL i: 13
+# of parent hyper-nodes: 8
+Parent hyper-node (T-path): 23
+	1744 nodes (unitaries)
+Parent hyper-node (T-path): 24
+	544 nodes (unitaries)
+Parent hyper-node (T-path): 21
+	144 nodes (unitaries)
+Parent hyper-node (T-path): 22
+	432 nodes (unitaries)
+Parent hyper-node (T-path): 17
+	338 nodes (unitaries)
+Parent hyper-node (T-path): 18
+	136 nodes (unitaries)
+Parent hyper-node (T-path): 20
+	128 nodes (unitaries)
+Parent hyper-node (T-path): 19
+	64 nodes (unitaries)
+Computing the children nodes...
+Sorted parents by size: [(19,64) (20,128) (18,136) (21,144) (17,338) (22,432) (24,544) (23,1744)]
+	Computing children of parent hyper-node: 19 [size: 64]
+	Computing children of parent hyper-node: 20 [size: 128]
+	Computing children of parent hyper-node: 18 [size: 136]
+	Computing children of parent hyper-node: 21 [size: 144]
+	Computing children of parent hyper-node: 17 [size: 338]
+	Computing children of parent hyper-node: 22 [size: 432]
+	Computing children of parent hyper-node: 24 [size: 544]
+	Computing children of parent hyper-node: 23 [size: 1744]
+Number of children nodes (USH size): 430660
+Now displaying the children nodes, unfiltered (SH): 
+	(sde=7, delta_ham=0, T_path=25) | count=2824
+	(sde=9, delta_ham=1, T_path=25) | count=77504
+	(sde=7, delta_ham=1, T_path=24) | count=3488
+	(sde=8, delta_ham=1, T_path=24) | count=38368
+	(sde=4, delta_ham=-1, T_path=26) | count=1088
+	(sde=5, delta_ham=1, T_path=26) | count=4864
+	(sde=7, delta_ham=-1, T_path=26) | count=7552
+	(sde=7, delta_ham=1, T_path=26) | count=20672
+	(sde=6, delta_ham=1, T_path=25) | count=4352
+	(sde=8, delta_ham=1, T_path=25) | count=33216
+	(sde=6, delta_ham=-1, T_path=25) | count=8704
+	(sde=9, delta_ham=-1, T_path=24) | count=1728
+	(sde=10, delta_ham=1, T_path=24) | count=3120
+	(sde=11, delta_ham=1, T_path=24) | count=6912
+	(sde=11, delta_ham=1, T_path=23) | count=6912
+	(sde=13, delta_ham=1, T_path=20) | count=3520
+	(sde=6, delta_ham=-1, T_path=24) | count=6976
+	(sde=14, delta_ham=1, T_path=19) | count=3784
+	(sde=13, delta_ham=0, T_path=22) | count=128
+	(sde=12, delta_ham=1, T_path=20) | count=128
+	(sde=16, delta_ham=1, T_path=19) | count=8352
+	(sde=13, delta_ham=1, T_path=22) | count=4096
+	(sde=5, delta_ham=1, T_path=25) | count=1088
+	(sde=12, delta_ham=1, T_path=24) | count=16304
+	(sde=11, delta_ham=1, T_path=21) | count=1280
+	(sde=10, delta_ham=-1, T_path=24) | count=7792
+	(sde=13, delta_ham=0, T_path=19) | count=552
+	(sde=5, delta_ham=-1, T_path=25) | count=7616
+	(sde=11, delta_ham=-1, T_path=22) | count=1344
+	(sde=6, delta_ham=1, T_path=26) | count=13056
+	(sde=13, delta_ham=-1, T_path=22) | count=384
+	(sde=12, delta_ham=-1, T_path=23) | count=576
+	(sde=15, delta_ham=1, T_path=19) | count=4056
+	(sde=12, delta_ham=-1, T_path=24) | count=1824
+	(sde=12, delta_ham=1, T_path=22) | count=6176
+	(sde=11, delta_ham=1, T_path=22) | count=2592
+	(sde=13, delta_ham=0, T_path=20) | count=384
+	(sde=13, delta_ham=1, T_path=23) | count=4512
+	(sde=12, delta_ham=0, T_path=21) | count=256
+	(sde=14, delta_ham=-1, T_path=19) | count=5016
+	(sde=11, delta_ham=-1, T_path=20) | count=128
+	(sde=12, delta_ham=1, T_path=19) | count=272
+	(sde=14, delta_ham=0, T_path=19) | count=3512
+	(sde=12, delta_ham=-1, T_path=21) | count=512
+	(sde=7, delta_ham=1, T_path=25) | count=32928
+	(sde=8, delta_ham=-1, T_path=24) | count=3488
+	(sde=10, delta_ham=1, T_path=22) | count=512
+	(sde=13, delta_ham=1, T_path=21) | count=1536
+	(sde=12, delta_ham=1, T_path=21) | count=3584
+	(sde=13, delta_ham=0, T_path=23) | count=1344
+	(sde=11, delta_ham=1, T_path=20) | count=128
+	(sde=14, delta_ham=0, T_path=21) | count=384
+	(sde=13, delta_ham=1, T_path=19) | count=2424
+	(sde=15, delta_ham=1, T_path=20) | count=8336
+	(sde=12, delta_ham=-1, T_path=19) | count=272
+	(sde=13, delta_ham=-1, T_path=18) | count=676
+	(sde=14, delta_ham=1, T_path=20) | count=1808
+	(sde=5, delta_ham=-1, T_path=26) | count=2816
+	(sde=11, delta_ham=-1, T_path=23) | count=4128
+	(sde=9, delta_ham=0, T_path=24) | count=1728
+	(sde=15, delta_ham=1, T_path=18) | count=3532
+	(sde=12, delta_ham=0, T_path=24) | count=336
+	(sde=16, delta_ham=-1, T_path=19) | count=1280
+	(sde=12, delta_ham=1, T_path=23) | count=4512
+	(sde=12, delta_ham=-1, T_path=22) | count=864
+	(sde=13, delta_ham=-1, T_path=23) | count=1536
+	(sde=10, delta_ham=-1, T_path=23) | count=960
+	(sde=15, delta_ham=-1, T_path=18) | count=2152
+	(sde=9, delta_ham=-1, T_path=23) | count=1728
+	(sde=15, delta_ham=0, T_path=18) | count=2428
+	(sde=7, delta_ham=-1, T_path=25) | count=8536
+	(sde=13, delta_ham=1, T_path=18) | count=676
+	(sde=14, delta_ham=1, T_path=18) | count=676
+	(sde=14, delta_ham=1, T_path=21) | count=2176
+	(sde=16, delta_ham=0, T_path=19) | count=4304
+	(sde=15, delta_ham=0, T_path=19) | count=1352
+Children hyper-nodes before filtering (the P set): 18 19 20 21 22 23 24 25 26 
+Children hyper-nodes after filtering (the P set): 19 20 21 22 23 24 25 26 
+Minimal elements (filtered): 
+	(sde=12, delta_ham=-1, T_path=19) | count=272
+	(sde=11, delta_ham=-1, T_path=20) | count=128
+	(sde=12, delta_ham=0, T_path=21) | count=256
+	(sde=10, delta_ham=1, T_path=22) | count=512
+	(sde=12, delta_ham=-1, T_path=23) | count=576
+	(sde=12, delta_ham=0, T_path=24) | count=336
+	(sde=5, delta_ham=1, T_path=25) | count=1088
+	(sde=4, delta_ham=-1, T_path=26) | count=1088
+Filtering the children nodes in all children hyper-nodes...
+Number of children nodes after filtering (size of G): 3520
+------------------
+PARENT LEVEL i: 14
+# of parent hyper-nodes: 8
+Parent hyper-node (T-path): 26
+	864 nodes (unitaries)
+Parent hyper-node (T-path): 25
+	960 nodes (unitaries)
+Parent hyper-node (T-path): 24
+	128 nodes (unitaries)
+Parent hyper-node (T-path): 23
+	528 nodes (unitaries)
+Parent hyper-node (T-path): 19
+	272 nodes (unitaries)
+Parent hyper-node (T-path): 22
+	384 nodes (unitaries)
+Parent hyper-node (T-path): 21
+	256 nodes (unitaries)
+Parent hyper-node (T-path): 20
+	128 nodes (unitaries)
+Computing the children nodes...
+Sorted parents by size: [(24,128) (20,128) (21,256) (19,272) (22,384) (23,528) (26,864) (25,960)]
+	Computing children of parent hyper-node: 24 [size: 128]
+	Computing children of parent hyper-node: 20 [size: 128]
+	Computing children of parent hyper-node: 21 [size: 256]
+	Computing children of parent hyper-node: 19 [size: 272]
+	Computing children of parent hyper-node: 22 [size: 384]
+	Computing children of parent hyper-node: 23 [size: 528]
+	Computing children of parent hyper-node: 26 [size: 864]
+	Computing children of parent hyper-node: 25 [size: 960]
+Number of children nodes (USH size): 429440
+Now displaying the children nodes, unfiltered (SH): 
+	(sde=5, delta_ham=-1, T_path=27) | count=7040
+	(sde=7, delta_ham=1, T_path=27) | count=51072
+	(sde=6, delta_ham=-1, T_path=26) | count=3840
+	(sde=4, delta_ham=-1, T_path=28) | count=2944
+	(sde=5, delta_ham=-1, T_path=28) | count=5664
+	(sde=4, delta_ham=0, T_path=28) | count=5440
+	(sde=5, delta_ham=1, T_path=28) | count=24256
+	(sde=6, delta_ham=1, T_path=27) | count=19456
+	(sde=3, delta_ham=-1, T_path=27) | count=1728
+	(sde=5, delta_ham=1, T_path=27) | count=20736
+	(sde=4, delta_ham=1, T_path=27) | count=1728
+	(sde=13, delta_ham=1, T_path=24) | count=10656
+	(sde=13, delta_ham=0, T_path=24) | count=1536
+	(sde=10, delta_ham=-1, T_path=24) | count=512
+	(sde=10, delta_ham=0, T_path=24) | count=512
+	(sde=13, delta_ham=1, T_path=23) | count=3968
+	(sde=11, delta_ham=1, T_path=22) | count=2304
+	(sde=11, delta_ham=0, T_path=22) | count=512
+	(sde=12, delta_ham=0, T_path=25) | count=960
+	(sde=12, delta_ham=-1, T_path=24) | count=1536
+	(sde=12, delta_ham=1, T_path=22) | count=4096
+	(sde=13, delta_ham=1, T_path=25) | count=11520
+	(sde=12, delta_ham=0, T_path=21) | count=256
+	(sde=12, delta_ham=1, T_path=21) | count=5376
+	(sde=11, delta_ham=1, T_path=25) | count=3328
+	(sde=13, delta_ham=1, T_path=26) | count=2048
+	(sde=13, delta_ham=1, T_path=22) | count=9216
+	(sde=6, delta_ham=1, T_path=26) | count=19200
+	(sde=3, delta_ham=-1, T_path=28) | count=6176
+	(sde=13, delta_ham=-1, T_path=22) | count=896
+	(sde=12, delta_ham=-1, T_path=23) | count=1280
+	(sde=12, delta_ham=1, T_path=25) | count=8704
+	(sde=13, delta_ham=0, T_path=22) | count=640
+	(sde=12, delta_ham=-1, T_path=26) | count=320
+	(sde=12, delta_ham=1, T_path=20) | count=544
+	(sde=6, delta_ham=-1, T_path=27) | count=9088
+	(sde=9, delta_ham=1, T_path=24) | count=1536
+	(sde=13, delta_ham=1, T_path=21) | count=4352
+	(sde=14, delta_ham=0, T_path=25) | count=960
+	(sde=11, delta_ham=1, T_path=24) | count=11712
+	(sde=10, delta_ham=1, T_path=22) | count=512
+	(sde=12, delta_ham=1, T_path=24) | count=13344
+	(sde=11, delta_ham=1, T_path=21) | count=768
+	(sde=14, delta_ham=0, T_path=26) | count=512
+	(sde=11, delta_ham=-1, T_path=25) | count=1408
+	(sde=11, delta_ham=-1, T_path=22) | count=1280
+	(sde=14, delta_ham=1, T_path=26) | count=4352
+	(sde=6, delta_ham=1, T_path=28) | count=35008
+	(sde=13, delta_ham=-1, T_path=24) | count=480
+	(sde=12, delta_ham=-1, T_path=21) | count=3408
+	(sde=11, delta_ham=-1, T_path=20) | count=544
+	(sde=12, delta_ham=-1, T_path=25) | count=3840
+	(sde=12, delta_ham=0, T_path=24) | count=512
+	(sde=12, delta_ham=1, T_path=23) | count=4608
+	(sde=14, delta_ham=1, T_path=23) | count=13312
+	(sde=12, delta_ham=1, T_path=26) | count=4032
+	(sde=11, delta_ham=1, T_path=23) | count=5632
+	(sde=13, delta_ham=1, T_path=20) | count=6528
+	(sde=13, delta_ham=-1, T_path=23) | count=128
+	(sde=14, delta_ham=-1, T_path=25) | count=480
+	(sde=11, delta_ham=0, T_path=20) | count=544
+	(sde=4, delta_ham=-1, T_path=27) | count=3392
+	(sde=14, delta_ham=1, T_path=21) | count=14160
+	(sde=10, delta_ham=-1, T_path=21) | count=544
+	(sde=11, delta_ham=0, T_path=23) | count=2304
+	(sde=10, delta_ham=1, T_path=23) | count=768
+	(sde=5, delta_ham=-1, T_path=26) | count=5760
+	(sde=14, delta_ham=1, T_path=25) | count=21216
+	(sde=11, delta_ham=-1, T_path=23) | count=1536
+	(sde=10, delta_ham=0, T_path=23) | count=768
+	(sde=9, delta_ham=-1, T_path=23) | count=768
+	(sde=10, delta_ham=0, T_path=26) | count=512
+	(sde=11, delta_ham=-1, T_path=24) | count=4736
+	(sde=9, delta_ham=-1, T_path=24) | count=1536
+	(sde=10, delta_ham=1, T_path=24) | count=2560
+Children hyper-nodes before filtering (the P set): 20 21 22 23 24 25 26 27 28 
+Children hyper-nodes after filtering (the P set): 21 22 23 24 26 27 28 
+Minimal elements (filtered): 
+	(sde=10, delta_ham=-1, T_path=21) | count=544
+	(sde=10, delta_ham=1, T_path=22) | count=512
+	(sde=9, delta_ham=-1, T_path=23) | count=768
+	(sde=10, delta_ham=-1, T_path=24) | count=512
+	(sde=10, delta_ham=0, T_path=26) | count=512
+	(sde=3, delta_ham=-1, T_path=27) | count=1728
+	(sde=4, delta_ham=-1, T_path=28) | count=2944
+Filtering the children nodes in all children hyper-nodes...
+Number of children nodes after filtering (size of G): 4656
+------------------
+PARENT LEVEL i: 15
+# of parent hyper-nodes: 7
+Parent hyper-node (T-path): 28
+	1472 nodes (unitaries)
+Parent hyper-node (T-path): 27
+	1440 nodes (unitaries)
+Parent hyper-node (T-path): 24
+	320 nodes (unitaries)
+Parent hyper-node (T-path): 23
+	576 nodes (unitaries)
+Parent hyper-node (T-path): 21
+	312 nodes (unitaries)
+Parent hyper-node (T-path): 22
+	384 nodes (unitaries)
+Parent hyper-node (T-path): 26
+	152 nodes (unitaries)
+Computing the children nodes...
+Sorted parents by size: [(26,152) (21,312) (24,320) (22,384) (23,576) (27,1440) (28,1472)]
+	Computing children of parent hyper-node: 26 [size: 152]
+	Computing children of parent hyper-node: 21 [size: 312]
+	Computing children of parent hyper-node: 24 [size: 320]
+	Computing children of parent hyper-node: 22 [size: 384]
+	Computing children of parent hyper-node: 23 [size: 576]
+	Computing children of parent hyper-node: 27 [size: 1440]
+	Computing children of parent hyper-node: 28 [size: 1472]
+Number of children nodes (USH size): 568032
+Now displaying the children nodes, unfiltered (SH): 
+	(sde=4, delta_ham=0, T_path=30) | count=768
+	(sde=5, delta_ham=-1, T_path=30) | count=9216
+	(sde=3, delta_ham=-1, T_path=30) | count=2560
+	(sde=5, delta_ham=1, T_path=30) | count=10240
+	(sde=6, delta_ham=1, T_path=30) | count=83456
+	(sde=3, delta_ham=-1, T_path=29) | count=5888
+	(sde=3, delta_ham=0, T_path=29) | count=4736
+	(sde=4, delta_ham=-1, T_path=29) | count=12768
+	(sde=4, delta_ham=1, T_path=30) | count=29184
+	(sde=2, delta_ham=-1, T_path=29) | count=9120
+	(sde=4, delta_ham=1, T_path=29) | count=38624
+	(sde=5, delta_ham=1, T_path=29) | count=105504
+	(sde=4, delta_ham=1, T_path=28) | count=34560
+	(sde=10, delta_ham=1, T_path=28) | count=1312
+	(sde=11, delta_ham=-1, T_path=22) | count=1248
+	(sde=3, delta_ham=-1, T_path=28) | count=8640
+	(sde=12, delta_ham=-1, T_path=23) | count=1008
+	(sde=12, delta_ham=0, T_path=24) | count=512
+	(sde=12, delta_ham=1, T_path=23) | count=14352
+	(sde=12, delta_ham=1, T_path=28) | count=5792
+	(sde=10, delta_ham=0, T_path=23) | count=1392
+	(sde=11, delta_ham=1, T_path=27) | count=2432
+	(sde=9, delta_ham=0, T_path=22) | count=624
+	(sde=10, delta_ham=-1, T_path=28) | count=2624
+	(sde=10, delta_ham=-1, T_path=27) | count=304
+	(sde=10, delta_ham=-1, T_path=23) | count=3744
+	(sde=9, delta_ham=-1, T_path=22) | count=624
+	(sde=9, delta_ham=-1, T_path=28) | count=608
+	(sde=10, delta_ham=-1, T_path=22) | count=624
+	(sde=9, delta_ham=-1, T_path=27) | count=608
+	(sde=11, delta_ham=-1, T_path=27) | count=1216
+	(sde=8, delta_ham=-1, T_path=25) | count=3072
+	(sde=10, delta_ham=1, T_path=23) | count=3456
+	(sde=9, delta_ham=0, T_path=24) | count=1152
+	(sde=10, delta_ham=-1, T_path=26) | count=1408
+	(sde=11, delta_ham=-1, T_path=23) | count=3024
+	(sde=9, delta_ham=0, T_path=28) | count=608
+	(sde=11, delta_ham=1, T_path=25) | count=36864
+	(sde=11, delta_ham=1, T_path=28) | count=2432
+	(sde=10, delta_ham=0, T_path=25) | count=4224
+	(sde=11, delta_ham=0, T_path=22) | count=1248
+	(sde=9, delta_ham=-1, T_path=25) | count=2688
+	(sde=11, delta_ham=1, T_path=22) | count=4992
+	(sde=9, delta_ham=0, T_path=25) | count=640
+	(sde=9, delta_ham=-1, T_path=26) | count=256
+	(sde=11, delta_ham=0, T_path=23) | count=2304
+	(sde=9, delta_ham=0, T_path=26) | count=256
+	(sde=11, delta_ham=1, T_path=23) | count=8928
+	(sde=12, delta_ham=0, T_path=28) | count=608
+	(sde=12, delta_ham=1, T_path=26) | count=18432
+	(sde=11, delta_ham=1, T_path=26) | count=4352
+	(sde=9, delta_ham=1, T_path=24) | count=1536
+	(sde=11, delta_ham=-1, T_path=24) | count=3584
+	(sde=10, delta_ham=0, T_path=26) | count=1408
+	(sde=11, delta_ham=1, T_path=24) | count=10752
+	(sde=9, delta_ham=-1, T_path=23) | count=2016
+	(sde=10, delta_ham=1, T_path=26) | count=3328
+	(sde=10, delta_ham=1, T_path=25) | count=15104
+	(sde=9, delta_ham=-1, T_path=24) | count=3840
+	(sde=10, delta_ham=1, T_path=24) | count=14080
+	(sde=12, delta_ham=1, T_path=24) | count=12288
+	(sde=10, delta_ham=0, T_path=24) | count=2816
+	(sde=12, delta_ham=-1, T_path=24) | count=1536
+	(sde=10, delta_ham=-1, T_path=24) | count=512
+Children hyper-nodes before filtering (the P set): 22 23 24 25 26 27 28 29 30 
+Children hyper-nodes after filtering (the P set): 25 28 29 30 
+Minimal elements (filtered): 
+	(sde=8, delta_ham=-1, T_path=25) | count=3072
+	(sde=3, delta_ham=-1, T_path=28) | count=8640
+	(sde=3, delta_ham=0, T_path=29) | count=4736
+	(sde=4, delta_ham=0, T_path=30) | count=768
+Filtering the children nodes in all children hyper-nodes...
+Number of children nodes after filtering (size of G): 12048
+------------------
+PARENT LEVEL i: 16
+# of parent hyper-nodes: 4
+Parent hyper-node (T-path): 30
+	192 nodes (unitaries)
+Parent hyper-node (T-path): 29
+	2336 nodes (unitaries)
+Parent hyper-node (T-path): 28
+	7280 nodes (unitaries)
+Parent hyper-node (T-path): 25
+	2240 nodes (unitaries)
+Computing the children nodes...
+Sorted parents by size: [(30,192) (25,2240) (29,2336) (28,7280)]
+	Computing children of parent hyper-node: 30 [size: 192]
+	Computing children of parent hyper-node: 25 [size: 2240]
+	Computing children of parent hyper-node: 29 [size: 2336]
+	Computing children of parent hyper-node: 28 [size: 7280]
+Number of children nodes (USH size): 1469856
+Now displaying the children nodes, unfiltered (SH): 
+	(sde=1, delta_ham=-1, T_path=30) | count=12800
+	(sde=5, delta_ham=1, T_path=30) | count=367104
+	(sde=2, delta_ham=-1, T_path=29) | count=29120
+	(sde=2, delta_ham=-1, T_path=31) | count=20672
+	(sde=3, delta_ham=1, T_path=29) | count=14560
+	(sde=7, delta_ham=-1, T_path=26) | count=5504
+	(sde=9, delta_ham=1, T_path=26) | count=47488
+	(sde=4, delta_ham=1, T_path=30) | count=169344
+	(sde=10, delta_ham=-1, T_path=27) | count=7296
+	(sde=3, delta_ham=-1, T_path=31) | count=768
+	(sde=3, delta_ham=1, T_path=30) | count=17792
+	(sde=4, delta_ham=1, T_path=29) | count=174720
+	(sde=6, delta_ham=1, T_path=32) | count=7168
+	(sde=10, delta_ham=1, T_path=27) | count=123264
+	(sde=3, delta_ham=-1, T_path=32) | count=1536
+	(sde=4, delta_ham=-1, T_path=31) | count=27712
+	(sde=8, delta_ham=-1, T_path=26) | count=1024
+	(sde=5, delta_ham=1, T_path=31) | count=106176
+	(sde=4, delta_ham=1, T_path=32) | count=5120
+	(sde=4, delta_ham=1, T_path=31) | count=47936
+	(sde=5, delta_ham=1, T_path=32) | count=3072
+	(sde=8, delta_ham=-1, T_path=27) | count=22528
+	(sde=9, delta_ham=1, T_path=27) | count=27392
+	(sde=9, delta_ham=-1, T_path=26) | count=13184
+	(sde=7, delta_ham=-1, T_path=27) | count=1536
+	(sde=4, delta_ham=0, T_path=32) | count=768
+	(sde=8, delta_ham=1, T_path=27) | count=20736
+	(sde=10, delta_ham=0, T_path=27) | count=2048
+	(sde=3, delta_ham=0, T_path=30) | count=140768
+	(sde=9, delta_ham=-1, T_path=27) | count=1280
+	(sde=3, delta_ham=-1, T_path=30) | count=32032
+	(sde=3, delta_ham=0, T_path=31) | count=17408
+Children hyper-nodes before filtering (the P set): 26 27 29 30 31 32 
+Children hyper-nodes after filtering (the P set): 29 30 31 32 
+Minimal elements (filtered): 
+	(sde=3, delta_ham=1, T_path=29) | count=14560
+	(sde=1, delta_ham=-1, T_path=30) | count=12800
+	(sde=3, delta_ham=-1, T_path=31) | count=768
+	(sde=4, delta_ham=0, T_path=32) | count=768
+	[Found a node with sde == 1, exiting]
+------------------
+OUT:
+T-depth: 17
+T-path: 31
+We finished when sde == 1, C0 not available
+Filtered G nodes per hyper-tree level: [6 19 44 161 170 320 485 694 776 1380 1590 3530 3520 4656 12048]
+Max. num. nodes per hyper-tree level: 12048
+Avg. num. nodes: 1959.93
+Took: 349104 ms

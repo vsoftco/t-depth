@@ -1,0 +1,61 @@
+Algorithm 2
+n = 3
+IN: sde = 5
+IN: max T-depth target = 2
+------------------
+PARENT LEVEL i: 1
+# of parent hyper-nodes: 1
+Parent hyper-node (T-path): 0
+	1 nodes (unitaries)
+Computing the children nodes...
+Sorted parents by size: [(0,1)]
+	Computing children of parent hyper-node: 0 [size: 1]
+Number of children nodes (USH size): 2282
+Now displaying the children nodes, unfiltered (SH): 
+	(sde=2, delta_ham=-1, T_path=3) | count=8
+	(sde=4, delta_ham=1, T_path=3) | count=96
+	(sde=8, delta_ham=1, T_path=3) | count=400
+	(sde=6, delta_ham=1, T_path=3) | count=664
+	(sde=4, delta_ham=-1, T_path=2) | count=4
+	(sde=5, delta_ham=1, T_path=2) | count=196
+	(sde=4, delta_ham=-1, T_path=1) | count=4
+	(sde=5, delta_ham=1, T_path=3) | count=72
+	(sde=7, delta_ham=1, T_path=3) | count=96
+	(sde=5, delta_ham=1, T_path=1) | count=6
+	(sde=5, delta_ham=-1, T_path=2) | count=12
+	(sde=6, delta_ham=1, T_path=2) | count=68
+	(sde=3, delta_ham=-1, T_path=2) | count=12
+	(sde=7, delta_ham=1, T_path=2) | count=452
+	(sde=4, delta_ham=-1, T_path=3) | count=16
+	(sde=5, delta_ham=0, T_path=2) | count=56
+	(sde=4, delta_ham=1, T_path=1) | count=4
+	(sde=6, delta_ham=1, T_path=1) | count=112
+	(sde=4, delta_ham=1, T_path=2) | count=4
+Children hyper-nodes before filtering (the P set): 3 1 2 
+Children hyper-nodes after filtering (the P set): 3 2 
+Minimal elements (filtered): 
+	(sde=2, delta_ham=-1, T_path=3) | count=8
+	(sde=3, delta_ham=-1, T_path=2) | count=12
+Filtering the children nodes in all children hyper-nodes...
+Number of children nodes after filtering (size of G): 20
+------------------
+PARENT LEVEL i: 2
+# of parent hyper-nodes: 2
+Parent hyper-node (T-path): 3
+	8 nodes (unitaries)
+Parent hyper-node (T-path): 2
+	12 nodes (unitaries)
+Computing the children nodes...
+Sorted parents by size: [(3,8) (2,12)]
+	Computing children of parent hyper-node: 3 [size: 8]
+	Computing children of parent hyper-node: 2 [size: 12]
+------------------
+OUT:
+T-depth: 2
+T-path: 5
+C0 sde: 0
+Is C0 identity: false
+Filtered G nodes per hyper-tree level: [20]
+Max. num. nodes per hyper-tree level: 20
+Avg. num. nodes: 20
+Took: 78062 ms

@@ -1,0 +1,138 @@
+Algorithm 2
+n = 2
+IN: sde = 6
+IN: max T-depth target = 6
+------------------
+PARENT LEVEL i: 1
+# of parent hyper-nodes: 1
+Parent hyper-node (T-path): 0
+	1 nodes (unitaries)
+Computing the children nodes...
+Sorted parents by size: [(0,1)]
+	Computing children of parent hyper-node: 0 [size: 1]
+Number of children nodes (USH size): 122
+Now displaying the children nodes, unfiltered (SH): 
+	(sde=4, delta_ham=-1, T_path=2) | count=4
+	(sde=7, delta_ham=1, T_path=2) | count=16
+	(sde=7, delta_ham=1, T_path=1) | count=24
+	(sde=5, delta_ham=-1, T_path=1) | count=4
+	(sde=6, delta_ham=-1, T_path=2) | count=8
+	(sde=6, delta_ham=1, T_path=1) | count=2
+	(sde=8, delta_ham=1, T_path=2) | count=40
+	(sde=6, delta_ham=1, T_path=2) | count=24
+Children hyper-nodes before filtering (the P set): 2 1 
+Children hyper-nodes after filtering (the P set): 2 1 
+Minimal elements (filtered): 
+	(sde=4, delta_ham=-1, T_path=2) | count=4
+	(sde=6, delta_ham=1, T_path=1) | count=2
+Filtering the children nodes in all children hyper-nodes...
+Number of children nodes after filtering (size of G): 6
+------------------
+PARENT LEVEL i: 2
+# of parent hyper-nodes: 2
+Parent hyper-node (T-path): 2
+	4 nodes (unitaries)
+Parent hyper-node (T-path): 1
+	2 nodes (unitaries)
+Computing the children nodes...
+Sorted parents by size: [(1,2) (2,4)]
+	Computing children of parent hyper-node: 1 [size: 2]
+	Computing children of parent hyper-node: 2 [size: 4]
+Number of children nodes (USH size): 732
+Now displaying the children nodes, unfiltered (SH): 
+	(sde=2, delta_ham=-1, T_path=4) | count=8
+	(sde=4, delta_ham=-1, T_path=4) | count=24
+	(sde=4, delta_ham=0, T_path=4) | count=32
+	(sde=5, delta_ham=1, T_path=4) | count=56
+	(sde=4, delta_ham=1, T_path=4) | count=48
+	(sde=6, delta_ham=1, T_path=4) | count=200
+	(sde=6, delta_ham=0, T_path=3) | count=16
+	(sde=5, delta_ham=1, T_path=3) | count=96
+	(sde=7, delta_ham=-1, T_path=3) | count=48
+	(sde=8, delta_ham=1, T_path=3) | count=80
+	(sde=6, delta_ham=-1, T_path=2) | count=12
+	(sde=7, delta_ham=1, T_path=2) | count=48
+	(sde=5, delta_ham=-1, T_path=3) | count=24
+	(sde=6, delta_ham=1, T_path=3) | count=16
+	(sde=3, delta_ham=1, T_path=3) | count=8
+	(sde=4, delta_ham=1, T_path=3) | count=8
+	(sde=3, delta_ham=-1, T_path=3) | count=8
+Children hyper-nodes before filtering (the P set): 4 2 3 
+Children hyper-nodes after filtering (the P set): 4 2 3 
+Minimal elements (filtered): 
+	(sde=2, delta_ham=-1, T_path=4) | count=8
+	(sde=6, delta_ham=-1, T_path=2) | count=12
+	(sde=3, delta_ham=-1, T_path=3) | count=8
+Filtering the children nodes in all children hyper-nodes...
+Number of children nodes after filtering (size of G): 27
+------------------
+PARENT LEVEL i: 3
+# of parent hyper-nodes: 3
+Parent hyper-node (T-path): 4
+	8 nodes (unitaries)
+Parent hyper-node (T-path): 2
+	11 nodes (unitaries)
+Parent hyper-node (T-path): 3
+	8 nodes (unitaries)
+Computing the children nodes...
+Sorted parents by size: [(4,8) (3,8) (2,11)]
+	Computing children of parent hyper-node: 4 [size: 8]
+	Computing children of parent hyper-node: 3 [size: 8]
+	Computing children of parent hyper-node: 2 [size: 11]
+Number of children nodes (USH size): 3294
+Now displaying the children nodes, unfiltered (SH): 
+	(sde=6, delta_ham=-1, T_path=4) | count=168
+	(sde=6, delta_ham=0, T_path=4) | count=32
+	(sde=7, delta_ham=1, T_path=4) | count=208
+	(sde=7, delta_ham=1, T_path=3) | count=264
+	(sde=6, delta_ham=1, T_path=3) | count=22
+	(sde=4, delta_ham=-1, T_path=4) | count=44
+	(sde=2, delta_ham=-1, T_path=5) | count=16
+	(sde=3, delta_ham=0, T_path=5) | count=64
+	(sde=8, delta_ham=1, T_path=4) | count=440
+	(sde=2, delta_ham=-1, T_path=6) | count=96
+	(sde=2, delta_ham=1, T_path=4) | count=16
+	(sde=4, delta_ham=1, T_path=6) | count=512
+	(sde=2, delta_ham=-1, T_path=4) | count=16
+	(sde=3, delta_ham=-1, T_path=5) | count=96
+	(sde=4, delta_ham=1, T_path=5) | count=136
+	(sde=5, delta_ham=-1, T_path=3) | count=44
+	(sde=3, delta_ham=1, T_path=5) | count=272
+	(sde=5, delta_ham=1, T_path=5) | count=392
+	(sde=6, delta_ham=1, T_path=4) | count=120
+	(sde=3, delta_ham=1, T_path=6) | count=128
+	(sde=4, delta_ham=1, T_path=4) | count=192
+	(sde=3, delta_ham=1, T_path=4) | count=16
+Children hyper-nodes before filtering (the P set): 3 4 5 6 
+Children hyper-nodes after filtering (the P set): 3 4 5 6 
+Minimal elements (filtered): 
+	(sde=6, delta_ham=1, T_path=3) | count=22
+	(sde=2, delta_ham=-1, T_path=4) | count=16
+	(sde=2, delta_ham=-1, T_path=5) | count=16
+	(sde=2, delta_ham=-1, T_path=6) | count=96
+Filtering the children nodes in all children hyper-nodes...
+Number of children nodes after filtering (size of G): 116
+------------------
+PARENT LEVEL i: 4
+# of parent hyper-nodes: 4
+Parent hyper-node (T-path): 3
+	12 nodes (unitaries)
+Parent hyper-node (T-path): 5
+	16 nodes (unitaries)
+Parent hyper-node (T-path): 4
+	8 nodes (unitaries)
+Parent hyper-node (T-path): 6
+	80 nodes (unitaries)
+Computing the children nodes...
+Sorted parents by size: [(4,8) (3,12) (5,16) (6,80)]
+	Computing children of parent hyper-node: 4 [size: 8]
+------------------
+OUT:
+T-depth: 4
+T-path: 6
+C0 sde: 0
+Is C0 identity: false
+Filtered G nodes per hyper-tree level: [6 27 116]
+Max. num. nodes per hyper-tree level: 116
+Avg. num. nodes: 49.6667
+Took: 345 ms
