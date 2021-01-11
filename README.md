@@ -1,5 +1,5 @@
 # t-depth
-Numerical results for **arXiv:2101.xxxxx [quant-ph]**, "**A quasi-polynomial time heuristic algorithm for synthesizing T-depth optimal circuits**", by *Vlad Gheorghiu, Michele Mosca, and Priyanka Mukhopadhyay*
+Numerical results for [**arXiv:2101.03142 [quant-ph]**, "**A quasi-polynomial time heuristic algorithm for synthesizing T-depth optimal circuits**"](https://arxiv.org/abs/2101.03142), by *Vlad Gheorghiu, Michele Mosca, and Priyanka Mukhopadhyay*
 
 ---
 
