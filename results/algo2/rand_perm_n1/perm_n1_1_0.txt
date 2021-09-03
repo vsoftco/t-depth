@@ -1,0 +1,5 @@
+Algorithm 3
+n=1, sde=0, d_prime=0 
+######## RUN d_prime: 0 ########
+Clifford
+T-depth: 0
