@@ -1,0 +1,22 @@
+Algorithm 2
+n = 2
+IN: sde = 2
+IN: T-depth target = 2
+------------------
+PARENT LEVEL i: 1
+# of parent hyper-nodes: 1
+Parents (hyper-node,size): [(0,1)]
+Sorted parents by size:    [(0,1)]
+Computing the children nodes...
+	Computing children of parent hyper-node: 0 [size: 1]
+Found a node with sde == 0, exiting
+------------------
+OUT:
+T-depth: 1
+T-path: 2
+C0 sde: 0
+Is C0 identity: false
+Filtered G nodes per hyper-tree level: []
+Max. num. nodes per hyper-tree level: 1
+Avg. num. nodes: 1
+Took: 2 ms

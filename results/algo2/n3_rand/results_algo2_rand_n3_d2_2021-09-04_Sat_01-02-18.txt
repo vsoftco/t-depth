@@ -1,0 +1,40 @@
+Algorithm 2
+n = 3
+IN: sde = 3
+IN: T-depth target = 2
+------------------
+PARENT LEVEL i: 1
+# of parent hyper-nodes: 1
+Parents (hyper-node,size): [(0,1)]
+Sorted parents by size:    [(0,1)]
+Computing the children nodes...
+	Computing children of parent hyper-node: 0 [size: 1]
+		[*] Took: 2483 ms; Average per parent node: 2483 ms
+Number of children nodes (USH size): 2282
+Now displaying the children nodes, unfiltered (SH): 
+	(sde=2, delta_ham=-1, T_path=1) | count=2
+	(sde=3, delta_ham=-1, T_path=1) | count=6
+	(sde=3, delta_ham=1, T_path=1) | count=6
+	(sde=4, delta_ham=1, T_path=1) | count=112
+	(sde=2, delta_ham=-1, T_path=2) | count=24
+	(sde=3, delta_ham=0, T_path=2) | count=120
+	(sde=3, delta_ham=1, T_path=2) | count=4
+	(sde=4, delta_ham=1, T_path=2) | count=204
+	(sde=5, delta_ham=1, T_path=2) | count=452
+	(sde=1, delta_ham=-1, T_path=3) | count=8
+	(sde=2, delta_ham=-1, T_path=3) | count=16
+	(sde=3, delta_ham=-1, T_path=3) | count=72
+	(sde=3, delta_ham=1, T_path=3) | count=72
+	(sde=4, delta_ham=1, T_path=3) | count=464
+	(sde=5, delta_ham=1, T_path=3) | count=320
+	(sde=6, delta_ham=1, T_path=3) | count=400
+Found a node with sde == 1, exiting
+------------------
+OUT:
+T-depth: 2
+T-path: 4
+We finished when sde == 1, C0 not available
+Filtered G nodes per hyper-tree level: []
+Max. num. nodes per hyper-tree level: 1
+Avg. num. nodes: 1
+Took: 2484 ms
