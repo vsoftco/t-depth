@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # $1 - Number of qubits
 # $2 - T-depth target
