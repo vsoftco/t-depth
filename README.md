@@ -21,10 +21,10 @@ The output will be similar to
 n=2, d=5
 Time
 Samples: 10
-Average: 521.20
-Standard deviation: 418.37
+Average: 492.40
+Standard deviation: 617.01
 Space
 Samples: 10
-Average: 69.40
-Standard deviation: 47.14
+Average: 56.50
+Standard deviation: 71.69
 ```
